@@ -1,0 +1,54 @@
+[1.871s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_executors/build
+[2.141s] running develop
+[2.273s] Removing /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[3.207s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_executors/build
+[3.208s] Invoking command in '/home/maghetto/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_executors/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed
+[3.480s] running egg_info
+[3.485s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.485s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.494s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.495s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.495s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.512s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.515s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.516s] running build
+[3.521s] running build_py
+[3.523s] creating /home/maghetto/ros2_ws/build/examples_rclpy_executors/build
+[3.526s] creating /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib
+[3.529s] creating /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.529s] copying examples_rclpy_executors/custom_executor.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.529s] copying examples_rclpy_executors/talker.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.530s] copying examples_rclpy_executors/__init__.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.530s] copying examples_rclpy_executors/listener.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.530s] copying examples_rclpy_executors/callback_group.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.530s] copying examples_rclpy_executors/composed.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.531s] copying examples_rclpy_executors/custom_callback_group.py -> /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.531s] running install
+[3.531s] running install_lib
+[3.531s] creating /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.531s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.531s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.531s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.531s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.531s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.532s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.532s] copying /home/maghetto/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[3.532s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[3.532s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[3.533s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[3.583s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[3.584s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[3.585s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[3.585s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[3.585s] running install_data
+[3.585s] running install_egg_info
+[3.591s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[3.591s] running install_scripts
+[3.591s] Installing callback_group script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.591s] Installing composed script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.591s] Installing custom_callback_group script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.591s] Installing custom_executor script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.592s] Installing listener script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.592s] Installing talker script to /home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.592s] writing list of installed files to '/home/maghetto/ros2_ws/build/examples_rclpy_executors/install.log'
+[4.376s] Invoked command in '/home/maghetto/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_executors/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_executors/install.log --install-scripts $base/lib/examples_rclpy_executors --single-version-externally-managed

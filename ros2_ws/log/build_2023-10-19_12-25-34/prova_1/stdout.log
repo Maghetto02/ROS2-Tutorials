@@ -1,0 +1,34 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maghetto/ros2_ws/src/prova_1/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maghetto/ros2_ws/build/prova_1
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/lib/prova_1/my_node
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/package_run_dependencies/prova_1
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/parent_prefix_path/prova_1
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.sh
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.sh
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.dsv
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.bash
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.sh
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.zsh
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.dsv
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.dsv
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/packages/prova_1
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config.cmake
+-- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config-version.cmake
+-- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.xml

@@ -1,0 +1,24 @@
+[3.810s] Invoking command in '/home/maghetto/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed
+[4.027s] running egg_info
+[4.027s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[4.028s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[4.029s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[4.030s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[4.030s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[4.067s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[4.069s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[4.069s] running build
+[4.069s] running build_py
+[4.070s] running install
+[4.070s] running install_lib
+[4.072s] running install_data
+[4.072s] running install_egg_info
+[4.074s] removing '/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info' (and everything under it)
+[4.075s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[4.076s] running install_scripts
+[4.098s] Installing client script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[4.098s] Installing client_async script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[4.099s] Installing client_async_callback script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[4.099s] Installing client_async_member_function script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[4.099s] writing list of installed files to '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[4.535s] Invoked command in '/home/maghetto/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_client --single-version-externally-managed

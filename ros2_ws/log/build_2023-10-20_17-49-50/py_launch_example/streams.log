@@ -1,0 +1,35 @@
+[1.584s] Invoking command in '/home/maghetto/ros2_ws/src/py_launch_example': PYTHONPATH=/home/maghetto/ros2_ws/build/py_launch_example/prefix_override:/home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/maghetto/ros2_ws/build/py_launch_example/build install --record /home/maghetto/ros2_ws/build/py_launch_example/install.log --install-scripts $base/lib/py_launch_example --single-version-externally-managed
+[1.814s] running egg_info
+[1.818s] creating ../../build/py_launch_example/py_launch_example.egg-info
+[1.818s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[1.818s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[1.819s] writing entry points to ../../build/py_launch_example/py_launch_example.egg-info/entry_points.txt
+[1.819s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[1.819s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[1.836s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.868s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.869s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.869s] running build
+[1.869s] running build_py
+[1.870s] creating /home/maghetto/ros2_ws/build/py_launch_example/build
+[1.870s] creating /home/maghetto/ros2_ws/build/py_launch_example/build/lib
+[1.870s] creating /home/maghetto/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[1.870s] copying py_launch_example/__init__.py -> /home/maghetto/ros2_ws/build/py_launch_example/build/lib/py_launch_example
+[1.870s] running install
+[1.871s] running install_lib
+[1.872s] creating /home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages/py_launch_example
+[1.872s] copying /home/maghetto/ros2_ws/build/py_launch_example/build/lib/py_launch_example/__init__.py -> /home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages/py_launch_example
+[1.872s] byte-compiling /home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages/py_launch_example/__init__.py to __init__.cpython-38.pyc
+[1.874s] running install_data
+[1.874s] creating /home/maghetto/ros2_ws/install/py_launch_example/share/ament_index
+[1.875s] creating /home/maghetto/ros2_ws/install/py_launch_example/share/ament_index/resource_index
+[1.875s] creating /home/maghetto/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[1.875s] copying resource/py_launch_example -> /home/maghetto/ros2_ws/install/py_launch_example/share/ament_index/resource_index/packages
+[1.876s] copying package.xml -> /home/maghetto/ros2_ws/install/py_launch_example/share/py_launch_example
+[1.876s] creating /home/maghetto/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[1.876s] copying launch/my_script_launch.py -> /home/maghetto/ros2_ws/install/py_launch_example/share/py_launch_example/launch
+[1.876s] running install_egg_info
+[1.876s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages/py_launch_example-0.0.0-py3.8.egg-info
+[1.877s] running install_scripts
+[1.893s] writing list of installed files to '/home/maghetto/ros2_ws/build/py_launch_example/install.log'
+[1.921s] Invoked command in '/home/maghetto/ros2_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/py_launch_example/prefix_override:/home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/maghetto/ros2_ws/build/py_launch_example/build install --record /home/maghetto/ros2_ws/build/py_launch_example/install.log --install-scripts $base/lib/py_launch_example --single-version-externally-managed

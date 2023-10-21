@@ -1,0 +1,50 @@
+[3.702s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[4.278s] running develop
+[4.278s] Removing /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[4.304s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[4.308s] Invoking command in '/home/maghetto/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed
+[4.549s] running egg_info
+[4.550s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.551s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.552s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.554s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.554s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.618s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.619s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.620s] running build
+[4.620s] running build_py
+[4.621s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build
+[4.621s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib
+[4.621s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.621s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.622s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.622s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.623s] copying examples_rclpy_minimal_action_server/server.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.623s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.624s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[4.624s] running install
+[4.629s] running install_lib
+[4.630s] creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.630s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.630s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.631s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.632s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.632s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.632s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server
+[4.634s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-38.pyc
+[4.638s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-38.pyc
+[4.639s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-38.pyc
+[4.643s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-38.pyc
+[4.643s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-38.pyc
+[4.644s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-38.pyc
+[4.644s] running install_data
+[4.644s] running install_egg_info
+[4.651s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[4.651s] running install_scripts
+[4.670s] Installing server script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.670s] Installing server_defer script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.671s] Installing server_not_composable script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.680s] Installing server_queue_goals script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.681s] Installing server_single_goal script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.681s] writing list of installed files to '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[5.105s] Invoked command in '/home/maghetto/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed

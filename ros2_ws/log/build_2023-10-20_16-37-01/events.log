@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.001410] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001451] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001473] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001491] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001507] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001523] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001539] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001554] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001570] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001585] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001601] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001616] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001709] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001732] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001833] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001856] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001953] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002073] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002095] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.002194] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002216] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002315] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.002342] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.100611] (-) TimerEvent: {}
+[0.143041] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.144022] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '/home/maghetto/ros2_ws/src/cpp_parameters', '-DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_parameters'], 'cwd': '/home/maghetto/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '8454'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:43370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/8674,unix/maghetto-VirtualBox:/tmp/.ICE-unix/8674'), ('INVOCATION_ID', '21a8fa7fff894387bdbebb689532f2a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18b9ba80_0bea_4a4f_aa46_9dc9cecba133'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/cpp_parameters'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.167214] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.189185] (cpp_parameters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.201659] (-) TimerEvent: {}
+[0.304697] (-) TimerEvent: {}
+[0.406287] (-) TimerEvent: {}
+[0.407651] (cpp_parameters) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.506495] (-) TimerEvent: {}
+[0.564094] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.582918] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.606992] (-) TimerEvent: {}
+[0.716710] (-) TimerEvent: {}
+[0.743337] (cpp_parameters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.786147] (cpp_parameters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.817088] (-) TimerEvent: {}
+[0.917688] (-) TimerEvent: {}
+[0.927237] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.018957] (-) TimerEvent: {}
+[1.064777] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.070421] (cpp_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.075330] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.119199] (-) TimerEvent: {}
+[1.219860] (-) TimerEvent: {}
+[1.257820] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.257999] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.320279] (-) TimerEvent: {}
+[1.377539] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.378086] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.421855] (-) TimerEvent: {}
+[1.456629] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.457000] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.522241] (-) TimerEvent: {}
+[1.550478] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.551863] (cpp_parameters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.623018] (-) TimerEvent: {}
+[1.728716] (-) TimerEvent: {}
+[1.829768] (-) TimerEvent: {}
+[1.857512] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.930549] (-) TimerEvent: {}
+[1.976595] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.978743] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.978908] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.978981] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.980613] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.980792] (cpp_parameters) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.983381] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.985915] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.986022] (cpp_parameters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.987235] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.992624] (cpp_parameters) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.001692] (cpp_parameters) StdoutLine: {'line': b'-- Generating done\n'}
+[2.003885] (cpp_parameters) StdoutLine: {'line': b'-- Build files have been written to: /home/maghetto/ros2_ws/build/cpp_parameters\n'}
+[2.013361] (cpp_parameters) CommandEnded: {'returncode': 0}
+[2.014311] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'build'}
+[2.014352] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/cpp_parameters', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '8454'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:43370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/8674,unix/maghetto-VirtualBox:/tmp/.ICE-unix/8674'), ('INVOCATION_ID', '21a8fa7fff894387bdbebb689532f2a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18b9ba80_0bea_4a4f_aa46_9dc9cecba133'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/cpp_parameters'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.030922] (-) TimerEvent: {}
+[2.065119] (cpp_parameters) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target minimal_param_node\x1b[0m\n'}
+[2.131360] (-) TimerEvent: {}
+[2.234484] (-) TimerEvent: {}
+[2.338314] (-) TimerEvent: {}
+[2.425242] (cpp_parameters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o\x1b[0m\n'}
+[2.439288] (-) TimerEvent: {}
+[2.540270] (-) TimerEvent: {}
+[2.641867] (-) TimerEvent: {}
+[2.743079] (-) TimerEvent: {}
+[2.844937] (-) TimerEvent: {}
+[2.963890] (-) TimerEvent: {}
+[3.070229] (-) TimerEvent: {}
+[3.175987] (-) TimerEvent: {}
+[3.284509] (-) TimerEvent: {}
+[3.385307] (-) TimerEvent: {}
+[3.495641] (-) TimerEvent: {}
+[3.598149] (-) TimerEvent: {}
+[3.699384] (-) TimerEvent: {}
+[3.802167] (-) TimerEvent: {}
+[3.902897] (-) TimerEvent: {}
+[4.008659] (-) TimerEvent: {}
+[4.131283] (-) TimerEvent: {}
+[4.232073] (-) TimerEvent: {}
+[4.338405] (-) TimerEvent: {}
+[4.440078] (-) TimerEvent: {}
+[4.541805] (-) TimerEvent: {}
+[4.656936] (-) TimerEvent: {}
+[4.760636] (-) TimerEvent: {}
+[4.861836] (-) TimerEvent: {}
+[4.980175] (-) TimerEvent: {}
+[5.089661] (-) TimerEvent: {}
+[5.192301] (-) TimerEvent: {}
+[5.294821] (-) TimerEvent: {}
+[5.414913] (-) TimerEvent: {}
+[5.525384] (-) TimerEvent: {}
+[5.626129] (-) TimerEvent: {}
+[5.727129] (-) TimerEvent: {}
+[5.828713] (-) TimerEvent: {}
+[5.931048] (-) TimerEvent: {}
+[6.049597] (-) TimerEvent: {}
+[6.174183] (-) TimerEvent: {}
+[6.275382] (-) TimerEvent: {}
+[6.376134] (-) TimerEvent: {}
+[6.482248] (-) TimerEvent: {}
+[6.586068] (-) TimerEvent: {}
+[6.687397] (-) TimerEvent: {}
+[6.769072] (cpp_parameters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_param_node\x1b[0m\n'}
+[6.794346] (-) TimerEvent: {}
+[6.898422] (-) TimerEvent: {}
+[6.999670] (-) TimerEvent: {}
+[7.015074] (cpp_parameters) StdoutLine: {'line': b'[100%] Built target minimal_param_node\n'}
+[7.042309] (cpp_parameters) CommandEnded: {'returncode': 0}
+[7.089398] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'install'}
+[7.099867] (-) TimerEvent: {}
+[7.105418] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maghetto/ros2_ws/build/cpp_parameters'], 'cwd': '/home/maghetto/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '8454'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8012'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:43370'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/8674,unix/maghetto-VirtualBox:/tmp/.ICE-unix/8674'), ('INVOCATION_ID', '21a8fa7fff894387bdbebb689532f2a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18b9ba80_0bea_4a4f_aa46_9dc9cecba133'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/cpp_parameters'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.115397] (cpp_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.115556] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node\n'}
+[7.116193] (cpp_parameters) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""\n'}
+[7.116601] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters\n'}
+[7.117088] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters\n'}
+[7.117193] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh\n'}
+[7.117277] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv\n'}
+[7.117735] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh\n'}
+[7.117832] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv\n'}
+[7.118137] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash\n'}
+[7.118242] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh\n'}
+[7.118552] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh\n'}
+[7.118655] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv\n'}
+[7.118981] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv\n'}
+[7.119086] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters\n'}
+[7.119547] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake\n'}
+[7.119877] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake\n'}
+[7.119983] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml\n'}
+[7.122279] (cpp_parameters) CommandEnded: {'returncode': 0}
+[7.207314] (-) TimerEvent: {}
+[7.322887] (-) TimerEvent: {}
+[7.433533] (-) TimerEvent: {}
+[7.525619] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 0}
+[7.526648] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/maghetto/ros2_ws/install/prova_1/lib/prova_1/my_node
+/home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/package_run_dependencies/prova_1
+/home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/parent_prefix_path/prova_1
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.sh
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.dsv
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.sh
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.dsv
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.bash
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.sh
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.zsh
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.dsv
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.dsv
+/home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/packages/prova_1
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config.cmake
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config-version.cmake
+/home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.xml

@@ -1,0 +1,106 @@
+[1.133s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.155s] UpdateCTestConfiguration  from :/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[1.156s] Parse Config file:/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[1.156s]    Site: maghetto-VirtualBox
+[1.157s]    Build name: (empty)
+[1.157s]  Add coverage exclude regular expressions.
+[1.158s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[1.158s] Create new tag: 20231013-1512 - Experimental
+[1.158s] UpdateCTestConfiguration  from :/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[1.158s] Parse Config file:/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[1.158s] Test project /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service
+[1.159s] Constructing a list of tests
+[1.159s] Done constructing a list of tests
+[1.159s] Updating test list for fixtures
+[1.160s] Added 0 tests to meet fixture requirements
+[1.160s] Checking test dependency graph...
+[1.161s] Checking test dependency graph end
+[1.161s] test 1
+[1.161s]     Start 1: copyright
+[1.161s] 
+[1.162s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml"
+[1.162s] 1: Test timeout computed to be: 60
+[1.237s] 1: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[1.237s] 1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml
+[1.531s] 1: No problems found, checked 1 files
+[1.551s] 1: -- run_test.py: return code 0
+[1.551s] 1: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml'
+[1.557s] 1/6 Test #1: copyright ........................   Passed    0.41 sec
+[1.557s] test 2
+[1.557s]     Start 2: cppcheck
+[1.557s] 
+[1.557s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml"
+[1.557s] 2: Test timeout computed to be: 300
+[1.626s] 2: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[1.626s] 2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml
+[1.984s] 2: No problems found
+[2.002s] 2: -- run_test.py: return code 0
+[2.002s] 2: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml'
+[2.026s] 2/6 Test #2: cppcheck .........................   Passed    0.47 sec
+[2.026s] test 3
+[2.026s]     Start 3: cpplint
+[2.027s] 
+[2.027s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml"
+[2.027s] 3: Test timeout computed to be: 120
+[2.109s] 3: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[2.109s] 3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml
+[2.446s] 3: Using '--root=..' argument
+[2.447s] 3: 
+[2.447s] 3: Done processing /home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service/main.cpp
+[2.447s] 3: 
+[2.447s] 3: No problems found
+[2.461s] 3: -- run_test.py: return code 0
+[2.462s] 3: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml'
+[2.474s] 3/6 Test #3: cpplint ..........................   Passed    0.45 sec
+[2.474s] test 4
+[2.474s]     Start 4: lint_cmake
+[2.475s] 
+[2.475s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml"
+[2.475s] 4: Test timeout computed to be: 60
+[2.550s] 4: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[2.551s] 4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml
+[2.846s] 4: 
+[2.846s] 4: No problems found
+[2.868s] 4: -- run_test.py: return code 0
+[2.868s] 4: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml'
+[2.951s] 4/6 Test #4: lint_cmake .......................   Passed    0.40 sec
+[2.952s] test 5
+[2.952s]     Start 5: uncrustify
+[2.953s] 
+[2.953s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml"
+[2.953s] 5: Test timeout computed to be: 60
+[2.980s] 5: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[2.980s] 5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml
+[3.274s] 5: No code style divergence in file 'main.cpp'
+[3.274s] 5: 
+[3.274s] 5: No problems found
+[3.299s] 5: -- run_test.py: return code 0
+[3.299s] 5: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml'
+[3.317s] 5/6 Test #5: uncrustify .......................   Passed    0.44 sec
+[3.317s] test 6
+[3.317s]     Start 6: xmllint
+[3.318s] 
+[3.318s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml"
+[3.318s] 6: Test timeout computed to be: 60
+[3.387s] 6: -- run_test.py: invoking following command in '/home/maghetto/ros2_ws/src/examples/rclcpp/services/minimal_service':
+[3.388s] 6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml
+[4.039s] 6: File 'package.xml' is valid
+[4.040s] 6: 
+[4.040s] 6: No problems found
+[4.074s] 6: -- run_test.py: return code 0
+[4.074s] 6: -- run_test.py: verify result file '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml'
+[4.176s] 6/6 Test #6: xmllint ..........................   Passed    0.77 sec
+[4.206s] 
+[4.212s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.212s] 
+[4.213s] Label Time Summary:
+[4.213s] copyright     =   0.41 sec*proc (1 test)
+[4.213s] cppcheck      =   0.47 sec*proc (1 test)
+[4.214s] cpplint       =   0.45 sec*proc (1 test)
+[4.214s] lint_cmake    =   0.40 sec*proc (1 test)
+[4.214s] linter        =   2.94 sec*proc (6 tests)
+[4.214s] uncrustify    =   0.44 sec*proc (1 test)
+[4.214s] xmllint       =   0.77 sec*proc (1 test)
+[4.215s] 
+[4.215s] Total Test time (real) =   2.94 sec
+[4.596s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

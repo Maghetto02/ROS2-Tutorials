@@ -1,0 +1,6 @@
+Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_pubsub
+Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_pubsub
+Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j5 -l5
+Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j5 -l5
+Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub
+Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub

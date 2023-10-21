@@ -1,0 +1,22 @@
+[0.579s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j6 -l6
+[0.685s] [100%] Built target my_node
+[0.711s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j6 -l6
+[0.807s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1
+[0.873s] -- Install configuration: ""
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/lib/prova_1/my_node
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/package_run_dependencies/prova_1
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/parent_prefix_path/prova_1
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.sh
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.dsv
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.sh
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.dsv
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.bash
+[0.873s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.sh
+[0.874s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.zsh
+[0.874s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.dsv
+[0.874s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.dsv
+[0.874s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/packages/prova_1
+[0.875s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config.cmake
+[0.876s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config-version.cmake
+[0.876s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.xml
+[0.882s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1

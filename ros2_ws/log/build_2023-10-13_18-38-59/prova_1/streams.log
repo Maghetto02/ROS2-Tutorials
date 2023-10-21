@@ -1,0 +1,58 @@
+[0.331s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/prova_1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/prova_1
+[0.495s] -- The C compiler identification is GNU 9.4.0
+[0.623s] -- The CXX compiler identification is GNU 9.4.0
+[0.643s] -- Check for working C compiler: /usr/bin/cc
+[0.784s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.785s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.954s] -- Detecting C compile features
+[0.955s] -- Detecting C compile features - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++
+[1.099s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.100s] -- Detecting CXX compiler ABI info
+[1.242s] -- Detecting CXX compiler ABI info - done
+[1.267s] -- Detecting CXX compile features
+[1.268s] -- Detecting CXX compile features - done
+[1.272s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.308s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.613s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.706s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.706s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.706s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maghetto/ros2_ws/src/prova_1/include>
+[1.706s] -- Configured cppcheck exclude dirs and/or files: 
+[1.706s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.707s] -- Configured cpplint exclude dirs and/or files: 
+[1.707s] -- Added test 'lint_cmake' to check CMake code style
+[1.727s] -- Added test 'uncrustify' to check C / C++ code style
+[1.727s] -- Configured uncrustify additional arguments: 
+[1.727s] -- Added test 'xmllint' to check XML markup files
+[1.727s] -- Configuring done
+[1.727s] -- Generating done
+[1.727s] -- Build files have been written to: /home/maghetto/ros2_ws/build/prova_1
+[1.964s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/prova_1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/prova_1
+[1.965s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j5 -l5
+[2.036s] [35m[1mScanning dependencies of target my_node[0m
+[2.065s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.122s] [100%] [32m[1mLinking CXX executable my_node[0m
+[2.192s] [100%] Built target my_node
+[2.208s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j5 -l5
+[2.277s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1
+[2.293s] -- Install configuration: ""
+[2.294s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/lib/prova_1/my_node
+[2.300s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/package_run_dependencies/prova_1
+[2.300s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/parent_prefix_path/prova_1
+[2.300s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.sh
+[2.300s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.dsv
+[2.301s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.sh
+[2.301s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.dsv
+[2.302s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.bash
+[2.302s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.sh
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.zsh
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.dsv
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.dsv
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/packages/prova_1
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config.cmake
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config-version.cmake
+[2.303s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.xml
+[2.307s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1

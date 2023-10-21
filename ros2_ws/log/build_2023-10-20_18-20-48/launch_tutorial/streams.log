@@ -1,0 +1,21 @@
+[1.234s] Invoking command in '/home/maghetto/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/maghetto/ros2_ws/build/launch_tutorial/prefix_override:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/maghetto/ros2_ws/build/launch_tutorial/build install --record /home/maghetto/ros2_ws/build/launch_tutorial/install.log --install-scripts $base/lib/launch_tutorial --single-version-externally-managed
+[1.507s] running egg_info
+[1.507s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.508s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.508s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[1.508s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.509s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.546s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.546s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.547s] running build
+[1.547s] running build_py
+[1.547s] running install
+[1.548s] running install_lib
+[1.550s] running install_data
+[1.550s] copying launch/example_event_handlers.launch.py -> /home/maghetto/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.551s] running install_egg_info
+[1.553s] removing '/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info' (and everything under it)
+[1.553s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info
+[1.567s] running install_scripts
+[1.585s] writing list of installed files to '/home/maghetto/ros2_ws/build/launch_tutorial/install.log'
+[1.606s] Invoked command in '/home/maghetto/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/launch_tutorial/prefix_override:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/maghetto/ros2_ws/build/launch_tutorial/build install --record /home/maghetto/ros2_ws/build/launch_tutorial/install.log --install-scripts $base/lib/launch_tutorial --single-version-externally-managed

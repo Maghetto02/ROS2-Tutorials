@@ -1,0 +1,29 @@
+[0.801s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j5 -l5
+[0.990s] [ 25%] Built target action_client_not_composable_with_cancel
+[0.990s] [ 50%] Built target action_client_not_composable_with_feedback
+[1.004s] [ 75%] Built target action_client_not_composable
+[1.006s] [100%] Built target action_client_member_functions
+[1.034s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j5 -l5
+[1.214s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client
+[1.244s] -- Install configuration: ""
+[1.246s] -- Execute custom install script
+[1.246s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[1.248s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[1.251s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[1.251s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[1.251s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[1.251s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[1.252s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[1.252s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[1.253s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[1.253s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[1.254s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[1.257s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[1.259s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[1.260s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[1.260s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[1.292s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[1.292s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[1.292s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[1.292s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[1.852s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_client

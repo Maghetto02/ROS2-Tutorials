@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.001283] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001323] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001344] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001361] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001377] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001418] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001443] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001461] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001476] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001492] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001507] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001529] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001620] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001643] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001659] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001675] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001690] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001705] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.001720] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001742] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001760] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001779] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.154597] (-) TimerEvent: {}
+[0.196198] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.197474] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/maghetto/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/more_interfaces'], 'cwd': '/home/maghetto/ros2_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1500'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:/home/maghetto/ros2_ws/install/turtlesim/lib:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1315'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maghetto/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:34482'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1562,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', '7f9e610bcdff4133aa9ddc81db52182b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89baa49f_08bd_4da4_90c3_f96d3d9e758f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.258428] (-) TimerEvent: {}
+[0.305974] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.368255] (-) TimerEvent: {}
+[0.404829] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.410527] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.469265] (-) TimerEvent: {}
+[0.528288] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.530026] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.569949] (-) TimerEvent: {}
+[0.672260] (-) TimerEvent: {}
+[0.693834] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.731332] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.732704] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.736767] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.774025] (-) TimerEvent: {}
+[0.877414] (-) TimerEvent: {}
+[0.931110] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.939799] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.978691] (-) TimerEvent: {}
+[1.079689] (-) TimerEvent: {}
+[1.093055] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.130976] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.132654] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.140454] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.186884] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.187075] (-) TimerEvent: {}
+[1.187281] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.403814] (-) TimerEvent: {}
+[1.430774] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.444452] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.456904] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.504087] (-) TimerEvent: {}
+[1.592632] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.611466] (-) TimerEvent: {}
+[1.654468] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.712293] (-) TimerEvent: {}
+[1.769139] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.813593] (-) TimerEvent: {}
+[1.817111] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.912385] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.913863] (-) TimerEvent: {}
+[1.915273] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.917743] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.021307] (-) TimerEvent: {}
+[2.069653] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.070229] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.121641] (-) TimerEvent: {}
+[2.223022] (-) TimerEvent: {}
+[2.240566] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.241950] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.327403] (-) TimerEvent: {}
+[2.414518] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.414738] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.436068] (-) TimerEvent: {}
+[2.541816] (-) TimerEvent: {}
+[2.544275] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.545957] (more_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.642072] (-) TimerEvent: {}
+[2.743407] (-) TimerEvent: {}
+[2.809001] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.888719] (-) TimerEvent: {}
+[2.969138] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.992974] (-) TimerEvent: {}
+[3.093957] (-) TimerEvent: {}
+[3.143221] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.166010] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.194557] (-) TimerEvent: {}
+[3.219975] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.223534] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.267603] (more_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.267796] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.267877] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.267951] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.294909] (-) TimerEvent: {}
+[3.303019] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.363639] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.395861] (-) TimerEvent: {}
+[3.399448] (more_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.401268] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.402915] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.403021] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.404251] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.404671] (more_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.405843] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.407204] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.407327] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.408167] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.414033] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.449336] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.453088] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/maghetto/ros2_ws/build/more_interfaces\n'}
+[3.463307] (more_interfaces) CommandEnded: {'returncode': 0}
+[3.487239] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[3.487375] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/more_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1500'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:/home/maghetto/ros2_ws/install/turtlesim/lib:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1315'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maghetto/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:34482'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1562,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', '7f9e610bcdff4133aa9ddc81db52182b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89baa49f_08bd_4da4_90c3_f96d3d9e758f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[3.496136] (-) TimerEvent: {}
+[3.596776] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__cpp\x1b[0m\n'}
+[3.597836] (-) TimerEvent: {}
+[3.598622] (more_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.639489] (more_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.704581] (-) TimerEvent: {}
+[3.807219] (-) TimerEvent: {}
+[3.907924] (-) TimerEvent: {}
+[3.950714] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.963575] (more_interfaces) StdoutLine: {'line': b'[  6%] Built target more_interfaces__cpp\n'}
+[3.983951] (more_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.984194] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[3.984308] (more_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.989475] (more_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.061885] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.062156] (-) TimerEvent: {}
+[4.110861] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_generator_c\n'}
+[4.127688] (more_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.127919] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.225239] (-) TimerEvent: {}
+[4.239758] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.313948] (more_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.314181] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.319775] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.333083] (-) TimerEvent: {}
+[4.343971] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.358936] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.447405] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.447632] (-) TimerEvent: {}
+[4.467670] (more_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[4.479739] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.499648] (more_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[4.515625] (more_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.548629] (more_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.549020] (-) TimerEvent: {}
+[4.577790] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[4.615822] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.679765] (-) TimerEvent: {}
+[4.720979] (more_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.749119] (more_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.781757] (-) TimerEvent: {}
+[4.803771] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[4.873274] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.882690] (-) TimerEvent: {}
+[4.964481] (more_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.983270] (-) TimerEvent: {}
+[5.084347] (-) TimerEvent: {}
+[5.087940] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.103126] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.185372] (-) TimerEvent: {}
+[5.286671] (-) TimerEvent: {}
+[5.371697] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.387534] (-) TimerEvent: {}
+[5.391293] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[5.489933] (-) TimerEvent: {}
+[5.590719] (-) TimerEvent: {}
+[5.692416] (-) TimerEvent: {}
+[5.796783] (-) TimerEvent: {}
+[5.799570] (more_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.898000] (-) TimerEvent: {}
+[5.914355] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.927922] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces\x1b[0m\n'}
+[5.966579] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[5.983989] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__py\x1b[0m\n'}
+[5.984860] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target publish_address_book\x1b[0m\n'}
+[5.999880] (-) TimerEvent: {}
+[6.019002] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.077318] (more_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[6.104902] (-) TimerEvent: {}
+[6.461901] (-) TimerEvent: {}
+[6.498668] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__py\n'}
+[6.512592] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__python\x1b[0m\n'}
+[6.534208] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[6.578661] (-) TimerEvent: {}
+[6.635770] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so\x1b[0m\n'}
+[6.681757] (more_interfaces) StdoutLine: {'line': b'[ 78%] Built target more_interfaces__python\n'}
+[6.681942] (-) TimerEvent: {}
+[6.697824] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.698330] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.698573] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.722778] (more_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.723022] (more_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.728391] (more_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.817052] (more_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.817246] (-) TimerEvent: {}
+[6.817441] (more_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.826094] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.866534] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.866747] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.903697] (more_interfaces) StdoutLine: {'line': b'[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.582219] (-) TimerEvent: {}
+[8.350401] (-) TimerEvent: {}
+[8.477708] (-) TimerEvent: {}
+[8.578837] (-) TimerEvent: {}
+[8.685481] (-) TimerEvent: {}
+[8.789360] (-) TimerEvent: {}
+[8.893128] (-) TimerEvent: {}
+[9.000694] (-) TimerEvent: {}
+[9.102317] (-) TimerEvent: {}
+[9.231472] (-) TimerEvent: {}
+[9.246036] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[9.332427] (-) TimerEvent: {}
+[9.432975] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[9.433156] (-) TimerEvent: {}
+[9.449420] (more_interfaces) CommandEnded: {'returncode': 0}
+[9.533989] (-) TimerEvent: {}
+[9.637519] (-) TimerEvent: {}
+[9.682814] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[9.699725] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maghetto/ros2_ws/build/more_interfaces'], 'cwd': '/home/maghetto/ros2_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1500'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:/home/maghetto/ros2_ws/install/turtlesim/lib:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1315'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maghetto/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:34482'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1562,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', '7f9e610bcdff4133aa9ddc81db52182b'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89baa49f_08bd_4da4_90c3_f96d3d9e758f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[9.730149] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.730390] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[9.731658] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[9.732300] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[9.733204] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.733478] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.733743] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.734051] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[9.734289] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.734861] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[9.735091] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[9.735315] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[9.735689] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[9.735776] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[9.735850] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[9.736294] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[9.736624] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.736843] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.737193] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.737486] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.737869] (-) TimerEvent: {}
+[9.738379] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.738951] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[9.739223] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.739428] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.740096] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.740189] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.740373] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.740551] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.740750] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[9.741027] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.741331] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.741810] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.742116] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.742371] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.743393] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.743818] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.743908] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[9.743982] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[9.744544] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.744638] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.744981] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[9.745066] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.745137] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.756603] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.756816] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[9.756949] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.761688] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.761799] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[9.761915] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.hpp\n'}
+[9.762008] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[9.762097] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[9.762184] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces\n'}
+[9.762280] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[9.762427] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[9.762519] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.762636] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[9.762717] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.762796] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.762876] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.762969] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.763049] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[9.763128] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[9.763222] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[9.827478] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[9.837132] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[9.837404] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[9.837532] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[9.837650] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[9.838916] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.839055] (-) TimerEvent: {}
+[9.839606] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.839751] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.840619] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.840746] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.841559] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.841702] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[9.842407] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/maghetto/ros2_ws/install/more_interfaces/lib/libmore_interfaces__python.so" to ""\n'}
+[9.842534] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[9.842606] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[9.843208] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[9.843355] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[9.843460] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[9.843895] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.844200] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[9.845009] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[9.846099] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[9.846470] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[9.846743] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[9.847055] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[9.847257] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[9.847685] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[9.847995] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.848485] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.848685] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.849579] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.850276] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.850783] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.851125] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.851469] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.851755] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.851934] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.852073] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.852156] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.852220] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.852586] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.852692] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.852762] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.852827] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.852889] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.852951] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[9.853226] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[9.853415] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/maghetto/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[9.855355] (more_interfaces) CommandEnded: {'returncode': 0}
+[9.954480] (-) TimerEvent: {}
+[10.095798] (-) TimerEvent: {}
+[10.197608] (-) TimerEvent: {}
+[10.347833] (-) TimerEvent: {}
+[10.470096] (-) TimerEvent: {}
+[10.607544] (-) TimerEvent: {}
+[10.666297] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[10.667156] (-) EventReactorShutdown: {}

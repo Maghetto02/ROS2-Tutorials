@@ -1,0 +1,42 @@
+[2.964s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.232s] running develop
+[3.380s] Removing /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[3.670s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.671s] Invoking command in '/home/maghetto/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed
+[3.911s] running egg_info
+[3.912s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.913s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.914s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.915s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.916s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.955s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.956s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.959s] running build
+[3.959s] running build_py
+[3.959s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[3.960s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[3.960s] creating /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.960s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.960s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.960s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.960s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[3.960s] running install
+[3.960s] running install_lib
+[3.960s] creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.960s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.960s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.960s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.961s] copying /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[3.961s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[3.962s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[3.963s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[3.963s] byte-compiling /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[3.964s] running install_data
+[3.964s] running install_egg_info
+[3.966s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[3.967s] running install_scripts
+[3.989s] Installing publisher_local_function script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.995s] Installing publisher_member_function script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.995s] Installing publisher_old_school script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.996s] writing list of installed files to '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[4.026s] Invoked command in '/home/maghetto/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed

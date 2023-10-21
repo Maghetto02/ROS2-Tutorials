@@ -1,0 +1,6 @@
+Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/prova_1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/prova_1
+Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/prova_1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/prova_1
+Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j5 -l5
+Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j5 -l5
+Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1
+Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1

@@ -1,0 +1,38 @@
+[0.173s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_parameters
+[0.632s] -- The C compiler identification is GNU 9.4.0
+[0.921s] -- The CXX compiler identification is GNU 9.4.0
+[0.944s] -- Check for working C compiler: /usr/bin/cc
+[1.065s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.068s] -- Detecting C compiler ABI info
+[1.175s] -- Detecting C compiler ABI info - done
+[1.195s] -- Detecting C compile features
+[1.196s] -- Detecting C compile features - done
+[1.220s] -- Check for working CXX compiler: /usr/bin/c++
+[1.329s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.330s] -- Detecting CXX compiler ABI info
+[1.465s] -- Detecting CXX compiler ABI info - done
+[1.479s] -- Detecting CXX compile features
+[1.479s] -- Detecting CXX compile features - done
+[1.504s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.561s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.561s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.899s] CMake Error at CMakeLists.txt:20 (find_package):
+[1.899s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[1.900s]   asked CMake to find a package configuration file provided by "rclpp", but
+[1.900s]   CMake did not find one.
+[1.900s] 
+[1.900s]   Could not find a package configuration file provided by "rclpp" with any of
+[1.900s]   the following names:
+[1.900s] 
+[1.900s]     rclppConfig.cmake
+[1.901s]     rclpp-config.cmake
+[1.901s] 
+[1.901s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[1.901s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[1.901s]   provides a separate development package or SDK, be sure it has been
+[1.902s]   installed.
+[1.902s] 
+[1.902s] 
+[1.903s] -- Configuring incomplete, errors occurred!
+[1.903s] See also "/home/maghetto/ros2_ws/build/cpp_parameters/CMakeFiles/CMakeOutput.log".
+[1.912s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_parameters

@@ -1,0 +1,38 @@
+[1.999s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j6 -l6
+[2.116s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.587s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.852s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.852s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maghetto/ros2_ws/src/prova_1/include>
+[2.852s] -- Configured cppcheck exclude dirs and/or files: 
+[2.853s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.853s] -- Configured cpplint exclude dirs and/or files: 
+[2.853s] -- Added test 'lint_cmake' to check CMake code style
+[2.853s] -- Added test 'uncrustify' to check C / C++ code style
+[2.853s] -- Configured uncrustify additional arguments: 
+[2.854s] -- Added test 'xmllint' to check XML markup files
+[2.854s] -- Configuring done
+[2.892s] -- Generating done
+[2.893s] -- Build files have been written to: /home/maghetto/ros2_ws/build/prova_1
+[3.010s] [100%] Built target my_node
+[3.417s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/prova_1 -- -j6 -l6
+[3.812s] Invoking command in '/home/maghetto/ros2_ws/build/prova_1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1
+[3.905s] -- Install configuration: ""
+[3.909s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/lib/prova_1/my_node
+[3.910s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/package_run_dependencies/prova_1
+[3.910s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/parent_prefix_path/prova_1
+[3.911s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.sh
+[3.912s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/ament_prefix_path.dsv
+[3.912s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.sh
+[3.915s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/environment/path.dsv
+[3.918s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.bash
+[3.918s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.sh
+[3.918s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.zsh
+[3.919s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/local_setup.dsv
+[3.919s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.dsv
+[3.919s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/ament_index/resource_index/packages/prova_1
+[3.919s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config.cmake
+[3.920s] -- Up-to-date: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/cmake/prova_1Config-version.cmake
+[3.920s] -- Installing: /home/maghetto/ros2_ws/install/prova_1/share/prova_1/package.xml
+[3.927s] Invoked command in '/home/maghetto/ros2_ws/build/prova_1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/prova_1

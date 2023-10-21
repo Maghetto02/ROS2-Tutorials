@@ -1,0 +1,24 @@
+[0.841s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[0.975s] [ 50%] Built target listener
+[0.989s] [100%] Built target talker
+[1.115s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[1.160s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub
+[1.177s] -- Install configuration: ""
+[1.178s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.179s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.180s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.181s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.181s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.181s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[1.182s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.183s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[1.183s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.184s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.184s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.184s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[1.184s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[1.184s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.185s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.185s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.185s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[1.189s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub

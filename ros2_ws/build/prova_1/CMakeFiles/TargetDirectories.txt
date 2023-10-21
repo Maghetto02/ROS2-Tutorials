@@ -1,0 +1,10 @@
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/install/strip.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/install/local.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/install.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/list_install_components.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/rebuild_cache.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/edit_cache.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/test.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/prova_1_uninstall.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/my_node.dir
+/home/maghetto/ros2_ws/build/prova_1/CMakeFiles/uninstall.dir

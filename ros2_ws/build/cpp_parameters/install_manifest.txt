@@ -1,0 +1,17 @@
+/home/maghetto/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+/home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+/home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+/home/maghetto/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+/home/maghetto/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml

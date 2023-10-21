@@ -1,0 +1,27 @@
+[0.774s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[1.033s] [ 33%] Built target publisher_member_function
+[1.036s] [ 66%] Built target publisher_lambda
+[1.045s] [100%] Built target publisher_not_composable
+[1.430s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j6 -l6
+[1.697s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.022s] -- Install configuration: ""
+[2.024s] -- Execute custom install script
+[2.025s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.025s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[2.025s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[2.025s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[2.025s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[2.026s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[2.026s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[2.026s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[2.026s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[2.026s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[2.027s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[2.027s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[2.027s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[2.027s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[2.027s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[2.028s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[2.028s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[2.028s] -- Up-to-date symlink: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[2.185s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_publisher

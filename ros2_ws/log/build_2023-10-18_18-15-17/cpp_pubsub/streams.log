@@ -1,0 +1,71 @@
+[0.172s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_pubsub
+[0.691s] -- The C compiler identification is GNU 9.4.0
+[0.990s] -- The CXX compiler identification is GNU 9.4.0
+[1.018s] -- Check for working C compiler: /usr/bin/cc
+[1.140s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.144s] -- Detecting C compiler ABI info
+[1.302s] -- Detecting C compiler ABI info - done
+[1.316s] -- Detecting C compile features
+[1.317s] -- Detecting C compile features - done
+[1.333s] -- Check for working CXX compiler: /usr/bin/c++
+[1.469s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.471s] -- Detecting CXX compiler ABI info
+[1.624s] -- Detecting CXX compiler ABI info - done
+[1.633s] -- Detecting CXX compile features
+[1.634s] -- Detecting CXX compile features - done
+[1.658s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.702s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.024s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.196s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.413s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.720s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.733s] -- Looking for pthread.h
+[2.894s] -- Looking for pthread.h - found
+[2.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.026s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.026s] -- Looking for pthread_create in pthreads
+[3.113s] -- Looking for pthread_create in pthreads - not found
+[3.114s] -- Looking for pthread_create in pthread
+[3.230s] -- Looking for pthread_create in pthread - found
+[3.230s] -- Found Threads: TRUE  
+[3.628s] -- Configuring done
+[3.638s] -- Generating done
+[3.640s] -- Build files have been written to: /home/maghetto/ros2_ws/build/cpp_pubsub
+[3.651s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/cpp_pubsub
+[3.652s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j5 -l5
+[3.705s] [35m[1mScanning dependencies of target listener[0m
+[3.707s] [35m[1mScanning dependencies of target talker[0m
+[4.141s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.151s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[9.962s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[10.328s] [ 75%] Built target talker
+[11.953s] [100%] [32m[1mLinking CXX executable listener[0m
+[12.180s] [100%] Built target listener
+[12.195s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j5 -l5
+[12.299s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub
+[12.316s] -- Install configuration: ""
+[12.316s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[12.316s] -- Set runtime path of "/home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[12.320s] -- Set runtime path of "/home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[12.320s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[12.321s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[12.321s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[12.321s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[12.321s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[12.323s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[12.323s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[12.337s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub

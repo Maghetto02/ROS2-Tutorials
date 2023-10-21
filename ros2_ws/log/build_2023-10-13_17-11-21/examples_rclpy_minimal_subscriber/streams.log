@@ -1,0 +1,27 @@
+[1.624s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[1.911s] running develop
+[2.060s] running egg_info
+[2.061s] creating examples_rclpy_minimal_subscriber.egg-info
+[2.061s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.061s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.061s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.061s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.061s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.077s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.077s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.077s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.120s] running build_ext
+[2.121s] Creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[2.122s] Creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.122s] Installing subscriber_lambda script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.123s] Installing subscriber_member_function script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.123s] Installing subscriber_old_school script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.123s] 
+[2.123s] Installed /home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber
+[2.123s] running install_data
+[2.124s] creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.124s] creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.124s] creating /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.124s] copying resource/examples_rclpy_minimal_subscriber -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.125s] copying package.xml -> /home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.259s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/maghetto/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

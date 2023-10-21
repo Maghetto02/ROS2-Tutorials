@@ -1,0 +1,84 @@
+[0.670s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.486s] -- The C compiler identification is GNU 9.4.0
+[1.947s] -- The CXX compiler identification is GNU 9.4.0
+[2.003s] -- Check for working C compiler: /usr/bin/cc
+[2.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.166s] -- Detecting C compiler ABI info
+[2.319s] -- Detecting C compiler ABI info - done
+[2.339s] -- Detecting C compile features
+[2.342s] -- Detecting C compile features - done
+[2.350s] -- Check for working CXX compiler: /usr/bin/c++
+[2.500s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.502s] -- Detecting CXX compiler ABI info
+[2.678s] -- Detecting CXX compiler ABI info - done
+[2.695s] -- Detecting CXX compile features
+[2.703s] -- Detecting CXX compile features - done
+[2.727s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.789s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.789s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.192s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[3.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.354s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.683s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.726s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.524s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.613s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.613s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.616s] -- Looking for pthread.h
+[4.803s] -- Looking for pthread.h - found
+[4.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.049s] -- Looking for pthread_create in pthreads
+[5.221s] -- Looking for pthread_create in pthreads - not found
+[5.221s] -- Looking for pthread_create in pthread
+[5.411s] -- Looking for pthread_create in pthread - found
+[5.411s] -- Found Threads: TRUE  
+[5.799s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[6.000s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.197s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.198s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.199s] -- Configured cppcheck include dirs: 
+[6.199s] -- Configured cppcheck exclude dirs and/or files: 
+[6.199s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.199s] -- Configured cpplint exclude dirs and/or files: 
+[6.217s] -- Added test 'lint_cmake' to check CMake code style
+[6.227s] -- Added test 'uncrustify' to check C / C++ code style
+[6.228s] -- Configured uncrustify additional arguments: 
+[6.228s] -- Added test 'xmllint' to check XML markup files
+[6.230s] -- Configuring done
+[6.270s] -- Generating done
+[6.276s] -- Build files have been written to: /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server
+[6.326s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/maghetto/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server
+[6.334s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j5 -l5
+[6.513s] [35m[1mScanning dependencies of target action_server_not_composable[0m
+[6.526s] [35m[1mScanning dependencies of target action_server_member_functions[0m
+[6.892s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[6.993s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[25.923s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[26.391s] [ 75%] Built target action_server_not_composable
+[26.841s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[27.121s] [100%] Built target action_server_member_functions
+[27.512s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j5 -l5
+[28.432s] Invoking command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server
+[28.583s] -- Install configuration: ""
+[28.588s] -- Execute custom install script
+[28.592s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[28.593s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[28.594s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[28.594s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[28.594s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[28.594s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[28.594s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[28.596s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[28.612s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[28.629s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[28.676s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[28.694s] -- Symlinking: /home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[28.721s] Invoked command in '/home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/examples_rclcpp_minimal_action_server

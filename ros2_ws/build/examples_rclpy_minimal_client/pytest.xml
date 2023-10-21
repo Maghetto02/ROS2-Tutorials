@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="maghetto-VirtualBox" name="pytest" skipped="0" tests="3" time="0.283" timestamp="2023-10-13T17:13:05.233282"><testcase classname="examples_rclpy_minimal_client.services.minimal_client.test.test_copyright" name="test_copyright" time="0.021"><system-out>No problems found, checked 8 files
+</system-out></testcase><testcase classname="examples_rclpy_minimal_client.services.minimal_client.test.test_flake8" name="test_flake8" time="0.138"><system-out>
+9 files checked
+No problems found
+
+Checked files:
+
+* ./setup.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./test/test_flake8.py
+* ./examples_rclpy_minimal_client/client_async_member_function.py
+* ./examples_rclpy_minimal_client/__init__.py
+* ./examples_rclpy_minimal_client/client.py
+* ./examples_rclpy_minimal_client/client_async_callback.py
+* ./examples_rclpy_minimal_client/client_async.py
+</system-out></testcase><testcase classname="examples_rclpy_minimal_client.services.minimal_client.test.test_pep257" name="test_pep257" time="0.030"><system-out>checking ./examples_rclpy_minimal_client/__init__.py
+checking ./examples_rclpy_minimal_client/client.py
+checking ./examples_rclpy_minimal_client/client_async.py
+checking ./examples_rclpy_minimal_client/client_async_callback.py
+checking ./examples_rclpy_minimal_client/client_async_member_function.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+No problems found
+</system-out></testcase></testsuite></testsuites>

@@ -1,0 +1,44 @@
+[0.218s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[0.298s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.581s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.696s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.852s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.978s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.258s] -- Found tutorial_interfaces: 0.0.0 (/home/maghetto/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.498s] -- Configuring done
+[1.529s] -- Generating done
+[1.531s] -- Build files have been written to: /home/maghetto/ros2_ws/build/cpp_pubsub
+[1.586s] [35m[1mScanning dependencies of target talker[0m
+[1.586s] [35m[1mScanning dependencies of target listener[0m
+[1.632s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.632s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[7.772s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[8.040s] [ 75%] Built target talker
+[9.805s] [100%] [32m[1mLinking CXX executable listener[0m
+[10.149s] [100%] Built target listener
+[10.202s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/cpp_pubsub -- -j6 -l6
+[10.330s] Invoking command in '/home/maghetto/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub
+[10.342s] -- Install configuration: ""
+[10.342s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[10.343s] -- Set runtime path of "/home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[10.344s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[10.347s] -- Set runtime path of "/home/maghetto/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[10.347s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[10.347s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[10.347s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[10.348s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[10.348s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[10.348s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[10.348s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[10.349s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[10.349s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[10.349s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[10.349s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[10.349s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[10.349s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[10.349s] -- Up-to-date: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[10.349s] -- Installing: /home/maghetto/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[10.354s] Invoked command in '/home/maghetto/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/cpp_pubsub

@@ -1,0 +1,36 @@
+[1.066s] Invoking command in '/home/maghetto/ros2_ws/src/launch_tutorial': PYTHONPATH=/home/maghetto/ros2_ws/build/launch_tutorial/prefix_override:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/maghetto/ros2_ws/build/launch_tutorial/build install --record /home/maghetto/ros2_ws/build/launch_tutorial/install.log --install-scripts $base/lib/launch_tutorial --single-version-externally-managed
+[1.301s] running egg_info
+[1.302s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[1.302s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[1.302s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.302s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.304s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.341s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.341s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.342s] running build
+[1.342s] running build_py
+[1.342s] creating /home/maghetto/ros2_ws/build/launch_tutorial/build
+[1.342s] creating /home/maghetto/ros2_ws/build/launch_tutorial/build/lib
+[1.342s] creating /home/maghetto/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.342s] copying launch_tutorial/__init__.py -> /home/maghetto/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.342s] running install
+[1.342s] running install_lib
+[1.343s] creating /home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[1.343s] copying /home/maghetto/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial
+[1.345s] byte-compiling /home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial/__init__.py to __init__.cpython-38.pyc
+[1.346s] running install_data
+[1.346s] creating /home/maghetto/ros2_ws/install/launch_tutorial/share/ament_index
+[1.347s] creating /home/maghetto/ros2_ws/install/launch_tutorial/share/ament_index/resource_index
+[1.347s] creating /home/maghetto/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.347s] copying resource/launch_tutorial -> /home/maghetto/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.347s] copying package.xml -> /home/maghetto/ros2_ws/install/launch_tutorial/share/launch_tutorial
+[1.347s] creating /home/maghetto/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.347s] copying launch/example_main.launch.py -> /home/maghetto/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.347s] copying launch/example_substitutions.launch.py -> /home/maghetto/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.347s] running install_egg_info
+[1.348s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages/launch_tutorial-0.0.0-py3.8.egg-info
+[1.349s] running install_scripts
+[1.366s] writing list of installed files to '/home/maghetto/ros2_ws/build/launch_tutorial/install.log'
+[1.385s] Invoked command in '/home/maghetto/ros2_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/launch_tutorial/prefix_override:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/maghetto/ros2_ws/build/launch_tutorial/build install --record /home/maghetto/ros2_ws/build/launch_tutorial/install.log --install-scripts $base/lib/launch_tutorial --single-version-externally-managed
