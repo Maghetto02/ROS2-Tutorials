@@ -1,0 +1,25 @@
+[4.425s] Invoking command in '/home/maghetto/ros2_ws/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed
+[5.042s] running egg_info
+[5.042s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[5.042s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[5.042s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[5.042s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[5.042s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[5.043s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[5.043s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[5.044s] running build
+[5.044s] running build_py
+[5.045s] running install
+[5.054s] running install_lib
+[5.055s] running install_data
+[5.055s] running install_egg_info
+[5.055s] removing '/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info' (and everything under it)
+[5.055s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[5.055s] running install_scripts
+[5.055s] Installing server script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.055s] Installing server_defer script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.055s] Installing server_not_composable script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.056s] Installing server_queue_goals script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.056s] Installing server_single_goal script to /home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[5.056s] writing list of installed files to '/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[6.558s] Invoked command in '/home/maghetto/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/maghetto/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_server --single-version-externally-managed

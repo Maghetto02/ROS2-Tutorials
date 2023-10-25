@@ -1,0 +1,55 @@
+[0.324s] Invoking command in '/home/maghetto/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ROS2-Tutorials/ros2_ws/install/py_launch_example:/home/maghetto/ROS2-Tutorials/ros2_ws/install/launch_tutorial:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/bag_recorder_nodes -- -j6 -l6
+[0.392s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.686s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.909s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.973s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.144s] -- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)
+[1.181s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.187s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.321s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.415s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.417s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.417s] -- Configured cppcheck include dirs: 
+[1.417s] -- Configured cppcheck exclude dirs and/or files: 
+[1.419s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.420s] -- Configured cpplint exclude dirs and/or files: 
+[1.420s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.422s] -- Added test 'lint_cmake' to check CMake code style
+[1.423s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.426s] -- Added test 'uncrustify' to check C / C++ code style
+[1.426s] -- Configured uncrustify additional arguments: 
+[1.426s] -- Added test 'xmllint' to check XML markup files
+[1.430s] -- Configuring done
+[1.463s] -- Generating done
+[1.465s] -- Build files have been written to: /home/maghetto/ros2_ws/build/bag_recorder_nodes
+[1.523s] [35m[1mScanning dependencies of target data_generator_node[0m
+[1.568s] [ 50%] Built target simple_bag_recorder
+[1.613s] [ 75%] [32mBuilding CXX object CMakeFiles/data_generator_node.dir/src/data_generator_node.cpp.o[0m
+[5.832s] [100%] [32m[1mLinking CXX executable data_generator_node[0m
+[6.387s] [100%] Built target data_generator_node
+[6.440s] Invoked command in '/home/maghetto/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ROS2-Tutorials/ros2_ws/install/py_launch_example:/home/maghetto/ROS2-Tutorials/ros2_ws/install/launch_tutorial:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/bag_recorder_nodes -- -j6 -l6
+[6.683s] Invoking command in '/home/maghetto/ros2_ws/build/bag_recorder_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ROS2-Tutorials/ros2_ws/install/py_launch_example:/home/maghetto/ROS2-Tutorials/ros2_ws/install/launch_tutorial:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/bag_recorder_nodes
+[6.698s] -- Install configuration: ""
+[6.702s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+[6.710s] -- Installing: /home/maghetto/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/data_generator_node
+[6.711s] -- Set runtime path of "/home/maghetto/ros2_ws/install/bag_recorder_nodes/lib/bag_recorder_nodes/data_generator_node" to ""
+[6.713s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+[6.713s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+[6.713s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+[6.713s] -- Installing: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+[6.713s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+[6.713s] -- Installing: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+[6.713s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+[6.714s] -- Installing: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+[6.714s] -- Installing: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+[6.714s] -- Up-to-date: /home/maghetto/ros2_ws/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml
+[6.718s] Invoked command in '/home/maghetto/ros2_ws/build/bag_recorder_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ROS2-Tutorials/ros2_ws/install/py_launch_example:/home/maghetto/ROS2-Tutorials/ros2_ws/install/launch_tutorial:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ROS2-Tutorials/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/bag_recorder_nodes
