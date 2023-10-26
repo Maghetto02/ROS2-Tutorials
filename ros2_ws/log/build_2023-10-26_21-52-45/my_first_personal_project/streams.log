@@ -1,0 +1,31 @@
+[0.185s] Invoking command in '/home/maghetto/ros2_ws/build/my_first_personal_project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6
+[0.323s] [  2%] Built target my_first_personal_project__cpp
+[0.324s] [ 11%] Built target my_first_personal_project__rosidl_generator_c
+[0.416s] [ 20%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[0.424s] [ 28%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[0.424s] [ 37%] Built target my_first_personal_project__rosidl_typesupport_c
+[0.424s] [ 45%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[0.427s] [ 54%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[0.468s] [ 62%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[0.541s] [ 62%] Built target my_first_personal_project
+[0.570s] [35m[1mScanning dependencies of target eworker[0m
+[0.610s] [ 65%] Built target my_first_personal_project__py
+[0.626s] [ 71%] Built target random_generator
+[0.639s] [ 74%] [32mBuilding CXX object CMakeFiles/eworker.dir/src/eworker.cpp.o[0m
+[0.682s] [ 80%] Built target my_first_personal_project__python
+[0.731s] [ 85%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[0.733s] [ 91%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[0.735s] [ 97%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[2.716s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:[m[K In member function ‘[01m[Kvoid Eworker::topic_callback(my_first_personal_project::msg::Number_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.716s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Knode_id[m[K’
+[2.716s]    25 |   std::cout << "Publishing:\n\tnode_id: " << received_number.[01;31m[Knode_id[m[K << "\n\tnumber: " << received_number.number << std::endl;
+[2.716s]       |                                                              [01;31m[K^~~~~~~[m[K
+[2.716s] 
+[2.717s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Knumber[m[K’
+[2.717s]    25 | received_number.node_id << "\n\tnumber: " << received_number.[01;31m[Knumber[m[K << std::endl;
+[2.717s]       |                                                              [01;31m[K^~~~~~[m[K
+[2.717s] 
+[4.918s] make[2]: *** [CMakeFiles/eworker.dir/build.make:63: CMakeFiles/eworker.dir/src/eworker.cpp.o] Errore 1
+[4.918s] make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/eworker.dir/all] Errore 2
+[4.918s] make: *** [Makefile:141: all] Errore 2
+[4.925s] Invoked command in '/home/maghetto/ros2_ws/build/my_first_personal_project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6

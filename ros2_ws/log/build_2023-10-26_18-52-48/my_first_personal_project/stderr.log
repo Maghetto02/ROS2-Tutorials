@@ -1,0 +1,10 @@
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:[m[K In member function ‘[01m[Kvoid Random_Publisher::timer_callback()[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:35:86:[m[K [01;31m[Kerror: [m[Kinvalid static_cast from type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+   35 |       uint32_t max_n = static_cast<uint32_t>(this->get_parameter("max_n").as_string()[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:36:86:[m[K [01;31m[Kerror: [m[Kinvalid static_cast from type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+   36 |       uint32_t min_n = static_cast<uint32_t>(this->get_parameter("min_n").as_string()[01;31m[K)[m[K;
+      |                                                                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2
+make: *** [Makefile:141: all] Errore 2

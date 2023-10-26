@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.000434] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.000463] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000582] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000609] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000728] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000755] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000871] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000898] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001015] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001068] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001095] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001234] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001262] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001284] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001391] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001418] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001439] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001545] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001574] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001595] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.001701] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001728] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.001748] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001862] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001894] (my_first_personal_project) JobQueued: {'identifier': 'my_first_personal_project', 'dependencies': OrderedDict()}
+[0.002643] (my_first_personal_project) JobStarted: {'identifier': 'my_first_personal_project'}
+[0.100694] (-) TimerEvent: {}
+[0.182826] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'cmake'}
+[0.185383] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'build'}
+[0.185519] (my_first_personal_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/my_first_personal_project', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/my_first_personal_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1511'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1326'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:35382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1573,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1573'), ('INVOCATION_ID', '4fd040de009440af9a0ba16e2d4db791'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc6f87d0_03e8_4864_b4d3_916a70836848'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/my_first_personal_project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.201600] (-) TimerEvent: {}
+[0.303674] (-) TimerEvent: {}
+[0.325796] (my_first_personal_project) StdoutLine: {'line': b'[  2%] Built target my_first_personal_project__cpp\n'}
+[0.326612] (my_first_personal_project) StdoutLine: {'line': b'[ 11%] Built target my_first_personal_project__rosidl_generator_c\n'}
+[0.403924] (-) TimerEvent: {}
+[0.418410] (my_first_personal_project) StdoutLine: {'line': b'[ 20%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp\n'}
+[0.426193] (my_first_personal_project) StdoutLine: {'line': b'[ 28%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\n'}
+[0.426412] (my_first_personal_project) StdoutLine: {'line': b'[ 37%] Built target my_first_personal_project__rosidl_typesupport_c\n'}
+[0.426504] (my_first_personal_project) StdoutLine: {'line': b'[ 45%] Built target my_first_personal_project__rosidl_typesupport_cpp\n'}
+[0.429619] (my_first_personal_project) StdoutLine: {'line': b'[ 54%] Built target my_first_personal_project__rosidl_typesupport_introspection_c\n'}
+[0.470702] (my_first_personal_project) StdoutLine: {'line': b'[ 62%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c\n'}
+[0.531769] (-) TimerEvent: {}
+[0.543551] (my_first_personal_project) StdoutLine: {'line': b'[ 62%] Built target my_first_personal_project\n'}
+[0.572439] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target eworker\x1b[0m\n'}
+[0.612522] (my_first_personal_project) StdoutLine: {'line': b'[ 65%] Built target my_first_personal_project__py\n'}
+[0.628040] (my_first_personal_project) StdoutLine: {'line': b'[ 71%] Built target random_generator\n'}
+[0.632251] (-) TimerEvent: {}
+[0.641726] (my_first_personal_project) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/eworker.dir/src/eworker.cpp.o\x1b[0m\n'}
+[0.684958] (my_first_personal_project) StdoutLine: {'line': b'[ 80%] Built target my_first_personal_project__python\n'}
+[0.733495] (my_first_personal_project) StdoutLine: {'line': b'[ 85%] Built target my_first_personal_project__rosidl_typesupport_c__pyext\n'}
+[0.733736] (-) TimerEvent: {}
+[0.736011] (my_first_personal_project) StdoutLine: {'line': b'[ 91%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext\n'}
+[0.737079] (my_first_personal_project) StdoutLine: {'line': b'[ 97%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.202800] (-) TimerEvent: {}
+[1.304773] (-) TimerEvent: {}
+[1.409090] (-) TimerEvent: {}
+[1.514063] (-) TimerEvent: {}
+[1.615966] (-) TimerEvent: {}
+[1.721161] (-) TimerEvent: {}
+[2.205185] (-) TimerEvent: {}
+[2.359286] (-) TimerEvent: {}
+[2.515573] (-) TimerEvent: {}
+[2.652340] (-) TimerEvent: {}
+[2.718511] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Eworker::topic_callback(my_first_personal_project::msg::Number_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.718787] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knode_id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.718901] (my_first_personal_project) StderrLine: {'line': b'   25 |   std::cout << "Publishing:\\n\\tnode_id: " << received_number.\x1b[01;31m\x1b[Knode_id\x1b[m\x1b[K << "\\n\\tnumber: " << received_number.number << std::endl;\n'}
+[2.718998] (my_first_personal_project) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.719082] (my_first_personal_project) StderrLine: {'line': b'\n'}
+[2.719164] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Knumber\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.719252] (my_first_personal_project) StderrLine: {'line': b'   25 | received_number.node_id << "\\n\\tnumber: " << received_number.\x1b[01;31m\x1b[Knumber\x1b[m\x1b[K << std::endl;\n'}
+[2.719335] (my_first_personal_project) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.719415] (my_first_personal_project) StderrLine: {'line': b'\n'}
+[2.754984] (-) TimerEvent: {}
+[2.856367] (-) TimerEvent: {}
+[2.996947] (-) TimerEvent: {}
+[3.205290] (-) TimerEvent: {}
+[3.306546] (-) TimerEvent: {}
+[3.412370] (-) TimerEvent: {}
+[3.514322] (-) TimerEvent: {}
+[3.617244] (-) TimerEvent: {}
+[3.721395] (-) TimerEvent: {}
+[3.913231] (-) TimerEvent: {}
+[4.203093] (-) TimerEvent: {}
+[4.307962] (-) TimerEvent: {}
+[4.420046] (-) TimerEvent: {}
+[4.545785] (-) TimerEvent: {}
+[4.652266] (-) TimerEvent: {}
+[4.756276] (-) TimerEvent: {}
+[4.859217] (-) TimerEvent: {}
+[4.920140] (my_first_personal_project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/eworker.dir/build.make:63: CMakeFiles/eworker.dir/src/eworker.cpp.o] Errore 1\n'}
+[4.920962] (my_first_personal_project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/eworker.dir/all] Errore 2\n'}
+[4.921093] (my_first_personal_project) StderrLine: {'line': b'make: *** [Makefile:141: all] Errore 2\n'}
+[4.926942] (my_first_personal_project) CommandEnded: {'returncode': 2}
+[4.998221] (-) TimerEvent: {}
+[5.100523] (-) TimerEvent: {}
+[5.204254] (-) TimerEvent: {}
+[5.330534] (-) TimerEvent: {}
+[5.457672] (-) TimerEvent: {}
+[5.524610] (my_first_personal_project) JobEnded: {'identifier': 'my_first_personal_project', 'rc': 2}
+[5.536821] (-) EventReactorShutdown: {}

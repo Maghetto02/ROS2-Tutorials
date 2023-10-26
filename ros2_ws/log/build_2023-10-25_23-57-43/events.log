@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.000251] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.001084] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001109] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001222] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001247] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001346] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001369] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001459] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001481] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001577] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001599] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001691] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001973] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001999] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002017] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002033] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002048] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002064] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002080] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002096] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002111] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002126] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.002144] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002245] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002271] (my_first_personal_project) JobQueued: {'identifier': 'my_first_personal_project', 'dependencies': OrderedDict()}
+[0.002572] (my_first_personal_project) JobStarted: {'identifier': 'my_first_personal_project'}
+[0.099294] (-) TimerEvent: {}
+[0.153328] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'cmake'}
+[0.161491] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'build'}
+[0.161611] (my_first_personal_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/my_first_personal_project', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/my_first_personal_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1544'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1359'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:33625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1606,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1606'), ('INVOCATION_ID', '8c860e9e02144c23b042381bd93c44da'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e3bd3439_ed23_444f_af02_5d4b256c09c9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.118'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/my_first_personal_project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199548] (-) TimerEvent: {}
+[0.239737] (my_first_personal_project) StdoutLine: {'line': b'[  9%] Built target my_first_personal_project__rosidl_generator_c\n'}
+[0.251583] (my_first_personal_project) StdoutLine: {'line': b'[ 12%] Built target my_first_personal_project__cpp\n'}
+[0.297065] (my_first_personal_project) StdoutLine: {'line': b'[ 21%] Built target my_first_personal_project__rosidl_typesupport_introspection_c\n'}
+[0.297625] (my_first_personal_project) StdoutLine: {'line': b'[ 30%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp\n'}
+[0.298156] (my_first_personal_project) StdoutLine: {'line': b'[ 39%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\n'}
+[0.298242] (my_first_personal_project) StdoutLine: {'line': b'[ 48%] Built target my_first_personal_project__rosidl_typesupport_cpp\n'}
+[0.298816] (my_first_personal_project) StdoutLine: {'line': b'[ 57%] Built target my_first_personal_project__rosidl_typesupport_c\n'}
+[0.299935] (-) TimerEvent: {}
+[0.337017] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c\n'}
+[0.377355] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project\n'}
+[0.397417] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target random_generator\x1b[0m\n'}
+[0.400105] (-) TimerEvent: {}
+[0.408622] (my_first_personal_project) StdoutLine: {'line': b'[ 69%] Built target my_first_personal_project__py\n'}
+[0.442809] (my_first_personal_project) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o\x1b[0m\n'}
+[0.458941] (my_first_personal_project) StdoutLine: {'line': b'[ 78%] Built target my_first_personal_project__python\n'}
+[0.500772] (-) TimerEvent: {}
+[0.516595] (my_first_personal_project) StdoutLine: {'line': b'[ 90%] Built target my_first_personal_project__rosidl_typesupport_c__pyext\n'}
+[0.516867] (my_first_personal_project) StdoutLine: {'line': b'[ 90%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.519613] (my_first_personal_project) StdoutLine: {'line': b'[ 96%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext\n'}
+[0.601074] (-) TimerEvent: {}
+[0.701526] (-) TimerEvent: {}
+[0.802835] (-) TimerEvent: {}
+[0.903799] (-) TimerEvent: {}
+[1.004796] (-) TimerEvent: {}
+[1.106614] (-) TimerEvent: {}
+[1.207464] (-) TimerEvent: {}
+[1.322340] (-) TimerEvent: {}
+[1.430779] (-) TimerEvent: {}
+[1.531435] (-) TimerEvent: {}
+[1.638647] (-) TimerEvent: {}
+[1.739167] (-) TimerEvent: {}
+[1.765053] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRandom_Publisher::Random_Publisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.765256] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:22:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRandom_Publisher::create_publisher<my_first_personal_project::msg::Number>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.765336] (my_first_personal_project) StderrLine: {'line': b'   22 |       publisher_ = this->create_publisher<my_first_personal_project::msg::Number>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.765401] (my_first_personal_project) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.765463] (my_first_personal_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.765525] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.765586] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.765646] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:7\x1b[m\x1b[K:\n'}
+[1.765706] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.765771] (my_first_personal_project) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.765868] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.765933] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.765993] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:22:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[1.766053] (my_first_personal_project) StderrLine: {'line': b'   22 |       publisher_ = this->create_publisher<my_first_personal_project::msg::Number>(\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.766118] (my_first_personal_project) StderrLine: {'line': b'      |                                                                                   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.779132] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Random_Publisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.779315] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:33:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint32\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krintf32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.779393] (my_first_personal_project) StderrLine: {'line': b'   33 |       number.pid = (\x1b[01;31m\x1b[Kuint32\x1b[m\x1b[K)std::this_thread::get_id();\n'}
+[1.779458] (my_first_personal_project) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.779533] (my_first_personal_project) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krintf32\x1b[m\x1b[K\n'}
+[1.786682] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:37:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::publish(my_first_personal_project::msg::Number_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.786830] (my_first_personal_project) StderrLine: {'line': b'   37 |       publisher_->publish(number\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.786904] (my_first_personal_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.786982] (my_first_personal_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[1.787047] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[1.787109] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[1.787169] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[1.787228] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.787287] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.787346] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[1.787404] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.787463] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.787569] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.787635] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:7\x1b[m\x1b[K:\n'}
+[1.787696] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<std_msgs::msg::String_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.787784] (my_first_personal_project) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[1.787845] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.787904] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<std_msgs::msg::String_<std::allocator<void> >, std::default_delete<std_msgs::msg::String_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.787966] (my_first_personal_project) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[1.788024] (my_first_personal_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.788082] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788142] (my_first_personal_project) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[1.788200] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.788258] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::String_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788323] (my_first_personal_project) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[1.788382] (my_first_personal_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.788440] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788557] (my_first_personal_project) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[1.788627] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.788685] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.788759] (my_first_personal_project) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[1.788819] (my_first_personal_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.788878] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.788941] (my_first_personal_project) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[1.789000] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.789059] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.789125] (my_first_personal_project) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[1.789183] (my_first_personal_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.789242] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.789302] (my_first_personal_project) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[1.789360] (my_first_personal_project) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.789418] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.789526] (my_first_personal_project) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[1.789588] (my_first_personal_project) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.840676] (-) TimerEvent: {}
+[1.941422] (-) TimerEvent: {}
+[2.052119] (-) TimerEvent: {}
+[2.152934] (-) TimerEvent: {}
+[2.210859] (my_first_personal_project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1\n'}
+[2.211035] (my_first_personal_project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2\n'}
+[2.211390] (my_first_personal_project) StderrLine: {'line': b'make: *** [Makefile:141: all] Errore 2\n'}
+[2.219066] (my_first_personal_project) CommandEnded: {'returncode': 2}
+[2.253342] (-) TimerEvent: {}
+[2.353870] (-) TimerEvent: {}
+[2.469704] (-) TimerEvent: {}
+[2.523603] (my_first_personal_project) JobEnded: {'identifier': 'my_first_personal_project', 'rc': 2}
+[2.534944] (-) EventReactorShutdown: {}

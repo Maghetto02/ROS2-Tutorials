@@ -1,0 +1,29 @@
+[  2%] Built target my_first_personal_project__cpp
+[ 11%] Built target my_first_personal_project__rosidl_generator_c
+[ 20%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[ 28%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target my_first_personal_project__rosidl_typesupport_c
+[ 45%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[ 54%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[ 62%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[ 62%] Built target my_first_personal_project
+[35m[1mScanning dependencies of target eworker[0m
+[ 65%] Built target my_first_personal_project__py
+[ 71%] Built target random_generator
+[ 74%] [32mBuilding CXX object CMakeFiles/eworker.dir/src/eworker.cpp.o[0m
+[ 80%] Built target my_first_personal_project__python
+[ 85%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[ 91%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:[m[K In member function ‘[01m[Kvoid Eworker::topic_callback(my_first_personal_project::msg::Number_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Knode_id[m[K’
+   25 |   std::cout << "Publishing:\n\tnode_id: " << received_number.[01;31m[Knode_id[m[K << "\n\tnumber: " << received_number.number << std::endl;
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:25:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<my_first_personal_project::msg::Number_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Knumber[m[K’
+   25 | received_number.node_id << "\n\tnumber: " << received_number.[01;31m[Knumber[m[K << std::endl;
+      |                                                              [01;31m[K^~~~~~[m[K
+
+make[2]: *** [CMakeFiles/eworker.dir/build.make:63: CMakeFiles/eworker.dir/src/eworker.cpp.o] Errore 1
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/eworker.dir/all] Errore 2
+make: *** [Makefile:141: all] Errore 2

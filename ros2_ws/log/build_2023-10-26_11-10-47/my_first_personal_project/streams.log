@@ -1,0 +1,39 @@
+[0.181s] Invoking command in '/home/maghetto/ros2_ws/build/my_first_personal_project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6
+[0.595s] [  3%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.c.o[0m
+[0.601s] [  6%] Built target my_first_personal_project__cpp
+[0.748s] [  9%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_personal_project/msg/detail/number__type_support.cpp.o[0m
+[0.758s] [ 12%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/dds_fastrtps/number__type_support.cpp.o[0m
+[0.787s] [ 15%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_personal_project/msg/number__type_support.cpp.o[0m
+[1.324s] In file included from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.h:19[m[K,
+[1.325s]                  from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.c:4[m[K:
+[1.325s] [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_c/my_first_personal_project/msg/detail/number__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_personal_project/msg/detail/string__struct.h: File o directory non esistente
+[1.325s]    22 | #include [01;31m[K"my_first_personal_project/msg/detail/string__struct.h"[m[K
+[1.325s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.325s] compilation terminated.
+[1.363s] make[2]: *** [CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/build.make:92: CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.c.o] Errore 1
+[1.365s] make[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/all] Errore 2
+[1.366s] make[1]: *** Attesa per i processi non terminati....
+[1.548s] In file included from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_typesupport_cpp/my_first_personal_project/msg/number__type_support.cpp:7[m[K:
+[1.548s] [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_cpp/my_first_personal_project/msg/detail/number__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_personal_project/msg/detail/string__struct.hpp: File o directory non esistente
+[1.548s]    19 | #include [01;31m[K"my_first_personal_project/msg/detail/string__struct.hpp"[m[K
+[1.548s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.548s] In file included from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/number__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[1.548s]                  from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/dds_fastrtps/number__type_support.cpp:4[m[K:
+[1.548s] [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_cpp/my_first_personal_project/msg/detail/number__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_personal_project/msg/detail/string__struct.hpp: File o directory non esistente
+[1.549s]    19 | #include [01;31m[K"my_first_personal_project/msg/detail/string__struct.hpp"[m[K
+[1.549s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.549s] compilation terminated.
+[1.549s] compilation terminated.
+[1.558s] make[2]: *** [CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/dds_fastrtps/number__type_support.cpp.o] Errore 1
+[1.559s] make[1]: *** [CMakeFiles/Makefile2:308: CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/all] Errore 2
+[1.559s] make[2]: *** [CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_personal_project/msg/number__type_support.cpp.o] Errore 1
+[1.559s] make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/all] Errore 2
+[1.562s] In file included from [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_typesupport_introspection_cpp/my_first_personal_project/msg/detail/number__type_support.cpp:12[m[K:
+[1.562s] [01m[K/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_generator_cpp/my_first_personal_project/msg/detail/number__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmy_first_personal_project/msg/detail/string__struct.hpp: File o directory non esistente
+[1.562s]    19 | #include [01;31m[K"my_first_personal_project/msg/detail/string__struct.hpp"[m[K
+[1.562s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.562s] compilation terminated.
+[1.565s] make[2]: *** [CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_personal_project/msg/detail/number__type_support.cpp.o] Errore 1
+[1.566s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/all] Errore 2
+[1.566s] make: *** [Makefile:141: all] Errore 2
+[1.587s] Invoked command in '/home/maghetto/ros2_ws/build/my_first_personal_project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6

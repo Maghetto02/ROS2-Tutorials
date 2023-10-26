@@ -1,0 +1,17 @@
+{
+  "package_name": "my_first_personal_project",
+  "output_dir": "/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_typesupport_cpp/my_first_personal_project",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_adapter/my_first_personal_project:msg/Number.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/maghetto/ros2_ws/build/my_first_personal_project/rosidl_adapter/my_first_personal_project/msg/Number.idl"
+  ]
+}

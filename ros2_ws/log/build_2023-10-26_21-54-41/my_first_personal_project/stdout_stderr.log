@@ -1,0 +1,36 @@
+[  8%] Built target my_first_personal_project__rosidl_generator_c
+[ 11%] Built target my_first_personal_project__cpp
+[ 20%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[ 28%] Built target my_first_personal_project__rosidl_typesupport_c
+[ 37%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[ 45%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[ 54%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[ 62%] Built target my_first_personal_project
+[35m[1mScanning dependencies of target eworker[0m
+[ 65%] Built target my_first_personal_project__py
+[ 71%] Built target random_generator
+[ 74%] [32mBuilding CXX object CMakeFiles/eworker.dir/src/eworker.cpp.o[0m
+[ 80%] Built target my_first_personal_project__python
+[ 91%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[ 91%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:7[m[K:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:[m[K In member function ‘[01m[Kvoid Eworker::topic_callback(my_first_personal_project::msg::Number_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:26:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_first_personal_project::msg::Number_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   26 | CLCPP_INFO(this->get_logger(), "I heard: '%s'", received_number->[01;31m[Kdata[m[K.c_str());
+      |                                                                  [01;31m[K^~~~[m[K
+
+make[2]: *** [CMakeFiles/eworker.dir/build.make:63: CMakeFiles/eworker.dir/src/eworker.cpp.o] Errore 1
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/eworker.dir/all] Errore 2
+make: *** [Makefile:141: all] Errore 2

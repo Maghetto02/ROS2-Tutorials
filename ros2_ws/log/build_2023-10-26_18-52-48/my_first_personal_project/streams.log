@@ -1,0 +1,65 @@
+[0.211s] Invoking command in '/home/maghetto/ros2_ws/build/my_first_personal_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6
+[0.247s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.280s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.489s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.531s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.722s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.885s] -- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)
+[0.916s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[0.920s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.969s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.112s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.281s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.282s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.316s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.316s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.316s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.342s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.374s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.375s] -- Configured cppcheck include dirs: 
+[1.375s] -- Configured cppcheck exclude dirs and/or files: 
+[1.388s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.388s] -- Configured cpplint exclude dirs and/or files: 
+[1.391s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.394s] -- Added test 'lint_cmake' to check CMake code style
+[1.396s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.410s] -- Added test 'uncrustify' to check C / C++ code style
+[1.410s] -- Configured uncrustify additional arguments: 
+[1.412s] -- Added test 'xmllint' to check XML markup files
+[1.417s] -- Configuring done
+[1.457s] -- Generating done
+[1.468s] -- Build files have been written to: /home/maghetto/ros2_ws/build/my_first_personal_project
+[1.528s] [  9%] Built target my_first_personal_project__rosidl_generator_c
+[1.530s] [ 12%] Built target my_first_personal_project__cpp
+[1.571s] [ 30%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[1.571s] [ 30%] Built target my_first_personal_project__rosidl_typesupport_c
+[1.573s] [ 39%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[1.574s] [ 48%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[1.575s] [ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[1.613s] [ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[1.641s] [ 66%] Built target my_first_personal_project
+[1.660s] [35m[1mScanning dependencies of target random_generator[0m
+[1.672s] [ 69%] Built target my_first_personal_project__py
+[1.688s] [ 72%] [32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o[0m
+[1.719s] [ 78%] Built target my_first_personal_project__python
+[1.755s] [ 90%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[1.756s] [ 96%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[1.756s] [ 93%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[3.033s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:[m[K In member function ‘[01m[Kvoid Random_Publisher::timer_callback()[m[K’:
+[3.033s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:35:86:[m[K [01;31m[Kerror: [m[Kinvalid static_cast from type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+[3.033s]    35 |       uint32_t max_n = static_cast<uint32_t>(this->get_parameter("max_n").as_string()[01;31m[K)[m[K;
+[3.033s]       |                                                                                      [01;31m[K^[m[K
+[3.033s] [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:36:86:[m[K [01;31m[Kerror: [m[Kinvalid static_cast from type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+[3.033s]    36 |       uint32_t min_n = static_cast<uint32_t>(this->get_parameter("min_n").as_string()[01;31m[K)[m[K;
+[3.033s]       |                                                                                      [01;31m[K^[m[K
+[4.006s] make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1
+[4.007s] make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2
+[4.007s] make: *** [Makefile:141: all] Errore 2
+[4.021s] Invoked command in '/home/maghetto/ros2_ws/build/my_first_personal_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6

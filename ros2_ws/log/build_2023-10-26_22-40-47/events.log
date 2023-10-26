@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.001589] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.001631] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.001652] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001670] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001687] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001703] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001719] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001735] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001750] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001766] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001781] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001796] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001814] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001917] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001941] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001960] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002058] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002081] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002179] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002203] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002300] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002323] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002421] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.002443] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002550] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002576] (my_first_personal_project) JobQueued: {'identifier': 'my_first_personal_project', 'dependencies': OrderedDict()}
+[0.002678] (my_first_personal_project) JobStarted: {'identifier': 'my_first_personal_project'}
+[0.108170] (-) TimerEvent: {}
+[0.167545] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'cmake'}
+[0.169747] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'build'}
+[0.169814] (my_first_personal_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/my_first_personal_project', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/my_first_personal_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1511'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1326'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:35382'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1573,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1573'), ('INVOCATION_ID', '4fd040de009440af9a0ba16e2d4db791'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fc6f87d0_03e8_4864_b4d3_916a70836848'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/my_first_personal_project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.209513] (-) TimerEvent: {}
+[0.265653] (my_first_personal_project) StdoutLine: {'line': b'[  2%] Built target my_first_personal_project__cpp\n'}
+[0.280754] (my_first_personal_project) StdoutLine: {'line': b'[ 11%] Built target my_first_personal_project__rosidl_generator_c\n'}
+[0.314768] (-) TimerEvent: {}
+[0.351806] (my_first_personal_project) StdoutLine: {'line': b'[ 20%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp\n'}
+[0.352169] (my_first_personal_project) StdoutLine: {'line': b'[ 28%] Built target my_first_personal_project__rosidl_typesupport_c\n'}
+[0.353480] (my_first_personal_project) StdoutLine: {'line': b'[ 37%] Built target my_first_personal_project__rosidl_typesupport_cpp\n'}
+[0.361904] (my_first_personal_project) StdoutLine: {'line': b'[ 51%] Built target my_first_personal_project__rosidl_typesupport_introspection_c\n'}
+[0.362199] (my_first_personal_project) StdoutLine: {'line': b'[ 54%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\n'}
+[0.416615] (-) TimerEvent: {}
+[0.419935] (my_first_personal_project) StdoutLine: {'line': b'[ 62%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c\n'}
+[0.458037] (my_first_personal_project) StdoutLine: {'line': b'[ 62%] Built target my_first_personal_project\n'}
+[0.478118] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target eworker\x1b[0m\n'}
+[0.515431] (my_first_personal_project) StdoutLine: {'line': b'[ 65%] Built target my_first_personal_project__py\n'}
+[0.520528] (-) TimerEvent: {}
+[0.528554] (my_first_personal_project) StdoutLine: {'line': b'[ 71%] Built target random_generator\n'}
+[0.557266] (my_first_personal_project) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/eworker.dir/src/eworker.cpp.o\x1b[0m\n'}
+[0.609787] (my_first_personal_project) StdoutLine: {'line': b'[ 80%] Built target my_first_personal_project__python\n'}
+[0.628583] (-) TimerEvent: {}
+[0.669942] (my_first_personal_project) StdoutLine: {'line': b'[ 85%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext\n'}
+[0.671336] (my_first_personal_project) StdoutLine: {'line': b'[ 91%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.681620] (my_first_personal_project) StdoutLine: {'line': b'[ 97%] Built target my_first_personal_project__rosidl_typesupport_c__pyext\n'}
+[0.729539] (-) TimerEvent: {}
+[0.830714] (-) TimerEvent: {}
+[0.944839] (-) TimerEvent: {}
+[1.046983] (-) TimerEvent: {}
+[1.149477] (-) TimerEvent: {}
+[1.251388] (-) TimerEvent: {}
+[1.382122] (-) TimerEvent: {}
+[1.482874] (-) TimerEvent: {}
+[1.601804] (-) TimerEvent: {}
+[1.703864] (-) TimerEvent: {}
+[1.805636] (-) TimerEvent: {}
+[1.910773] (-) TimerEvent: {}
+[2.024837] (-) TimerEvent: {}
+[2.163430] (-) TimerEvent: {}
+[2.240480] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KEworker::Eworker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.240695] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:23:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.240773] (my_first_personal_project) StderrLine: {'line': b'   23 |       \x1b[01;31m\x1b[K10000ms\x1b[m\x1b[K, std::bind(&Eworker::timer_callback, this));\n'}
+[2.240839] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.249870] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Eworker::topic_callback(my_first_personal_project::msg::Number_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.250076] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:33:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<my_first_personal_project::msg::Number_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.250155] (my_first_personal_project) StderrLine: {'line': b'   33 |       received_numbers.push_back(number\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.250221] (my_first_personal_project) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.250284] (my_first_personal_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[2.250394] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:6\x1b[m\x1b[K:\n'}
+[2.250525] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1184:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = my_first_personal_project::msg::Number_<std::allocator<void> >; _Alloc = std::allocator<my_first_personal_project::msg::Number_<std::allocator<void> > >; std::vector<_Tp, _Alloc>::value_type = my_first_personal_project::msg::Number_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.250648] (my_first_personal_project) StderrLine: {'line': b' 1184 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const value_type& __x)\n'}
+[2.250710] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.252280] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:35:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFALSE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.252497] (my_first_personal_project) StderrLine: {'line': b'   35 |       bool id_is_present = \x1b[01;31m\x1b[KFALSE\x1b[m\x1b[K;\n'}
+[2.252570] (my_first_personal_project) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.255191] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:39:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTRUE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.255362] (my_first_personal_project) StderrLine: {'line': b'   39 |               id_is_present = \x1b[01;31m\x1b[KTRUE\x1b[m\x1b[K;\n'}
+[2.255437] (my_first_personal_project) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.255516] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:45:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.255588] (my_first_personal_project) StderrLine: {'line': b'   45 |         pub_id.push_back(number.node_id\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.255652] (my_first_personal_project) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.255715] (my_first_personal_project) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[2.255778] (my_first_personal_project) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:6\x1b[m\x1b[K:\n'}
+[2.255850] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1184:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::__cxx11::basic_string<char>; _Alloc = std::allocator<std::__cxx11::basic_string<char> >; std::vector<_Tp, _Alloc>::value_type = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.255925] (my_first_personal_project) StderrLine: {'line': b' 1184 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const value_type& __x)\n'}
+[2.255989] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.258464] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Eworker::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.258584] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:59:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.258677] (my_first_personal_project) StderrLine: {'line': b'   59 |             if(id.compare(n\x1b[01;31m\x1b[K->\x1b[m\x1b[Knode_id) == 0){\n'}
+[2.258791] (my_first_personal_project) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.258909] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kmy_first_personal_project::msg::Number_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.258991] (my_first_personal_project) StderrLine: {'line': b'   60 |               sum_ += n\x1b[01;31m\x1b[K->\x1b[m\x1b[Knumber;\n'}
+[2.259055] (my_first_personal_project) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.261349] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/eworker.cpp:67:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.261472] (my_first_personal_project) StderrLine: {'line': b'   67 |       std::cout << "Publishing:\\n\\tnode_id: " << \x1b[01;31m\x1b[Knumber\x1b[m\x1b[K.node_id << "\\n\\tnumber: " << number.number << std::endl;\n'}
+[2.261555] (my_first_personal_project) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.264978] (-) TimerEvent: {}
+[2.365755] (-) TimerEvent: {}
+[2.468515] (-) TimerEvent: {}
+[2.596023] (-) TimerEvent: {}
+[2.716647] (-) TimerEvent: {}
+[2.818978] (-) TimerEvent: {}
+[2.920070] (-) TimerEvent: {}
+[3.043911] (-) TimerEvent: {}
+[3.184214] (-) TimerEvent: {}
+[3.286033] (-) TimerEvent: {}
+[3.494502] (-) TimerEvent: {}
+[3.595661] (-) TimerEvent: {}
+[3.697307] (-) TimerEvent: {}
+[3.798197] (-) TimerEvent: {}
+[3.922770] (-) TimerEvent: {}
+[4.032794] (-) TimerEvent: {}
+[4.093005] (my_first_personal_project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/eworker.dir/build.make:63: CMakeFiles/eworker.dir/src/eworker.cpp.o] Errore 1\n'}
+[4.093197] (my_first_personal_project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/eworker.dir/all] Errore 2\n'}
+[4.093512] (my_first_personal_project) StderrLine: {'line': b'make: *** [Makefile:141: all] Errore 2\n'}
+[4.100443] (my_first_personal_project) CommandEnded: {'returncode': 2}
+[4.138868] (-) TimerEvent: {}
+[4.243292] (-) TimerEvent: {}
+[4.345804] (-) TimerEvent: {}
+[4.446456] (-) TimerEvent: {}
+[4.548146] (-) TimerEvent: {}
+[4.648893] (-) TimerEvent: {}
+[4.656771] (my_first_personal_project) JobEnded: {'identifier': 'my_first_personal_project', 'rc': 2}
+[4.659806] (-) EventReactorShutdown: {}

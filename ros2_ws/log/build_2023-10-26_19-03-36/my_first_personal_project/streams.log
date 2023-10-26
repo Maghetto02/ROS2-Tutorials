@@ -1,0 +1,121 @@
+[0.212s] Invoking command in '/home/maghetto/ros2_ws/build/my_first_personal_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6
+[0.284s] [  3%] Built target my_first_personal_project__cpp
+[0.284s] [ 12%] Built target my_first_personal_project__rosidl_generator_c
+[0.325s] [ 21%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[0.326s] [ 39%] Built target my_first_personal_project__rosidl_typesupport_c
+[0.326s] [ 39%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[0.338s] [ 48%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[0.341s] [ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[0.379s] [ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[0.410s] [ 66%] Built target my_first_personal_project
+[0.428s] [35m[1mScanning dependencies of target random_generator[0m
+[0.451s] [ 69%] Built target my_first_personal_project__py
+[0.472s] [ 72%] [32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o[0m
+[0.495s] [ 78%] Built target my_first_personal_project__python
+[0.530s] [ 90%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[0.530s] [ 90%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[0.531s] [ 96%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[3.720s] [100%] [32m[1mLinking CXX executable random_generator[0m
+[3.891s] [100%] Built target random_generator
+[3.912s] Invoked command in '/home/maghetto/ros2_ws/build/my_first_personal_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/maghetto/ros2_ws/build/my_first_personal_project -- -j6 -l6
+[4.062s] Invoking command in '/home/maghetto/ros2_ws/build/my_first_personal_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/my_first_personal_project
+[4.073s] -- Install configuration: ""
+[4.073s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/ament_index/resource_index/rosidl_interfaces/my_first_personal_project
+[4.073s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.073s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.074s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/rosidl_generator_c__visibility_control.h
+[4.074s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/number.h
+[4.074s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.074s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__functions.h
+[4.074s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__struct.h
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__type_support.h
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__functions.c
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/library_path.sh
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/library_path.dsv
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_generator_c.so
+[4.075s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.076s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.076s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.076s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__rosidl_typesupport_fastrtps_c.h
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_fastrtps_c.so
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.077s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/dds_fastrtps
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__rosidl_typesupport_fastrtps_cpp.hpp
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_fastrtps_cpp.so
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.078s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__type_support.c
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__rosidl_typesupport_introspection_c.h
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_introspection_c.so
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_c.so
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/number.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__traits.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__struct.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__type_support.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__builder.hpp
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail
+[4.079s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__rosidl_typesupport_introspection_cpp.hpp
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/include/my_first_personal_project/msg/detail/number__type_support.cpp
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_introspection_cpp.so
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__rosidl_typesupport_cpp.so
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/pythonpath.sh
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/pythonpath.dsv
+[4.080s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/__init__.py
+[4.128s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/msg
+[4.128s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/msg/_number.py
+[4.129s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/msg/__init__.py
+[4.129s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/msg/_number_s.c
+[4.129s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.130s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.130s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.131s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/libmy_first_personal_project__python.so
+[4.131s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/msg/Number.idl
+[4.138s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/msg/Number.msg
+[4.138s] -- Installing: /home/maghetto/ros2_ws/install/my_first_personal_project/lib/my_first_personal_project/random_generator
+[4.138s] -- Set runtime path of "/home/maghetto/ros2_ws/install/my_first_personal_project/lib/my_first_personal_project/random_generator" to ""
+[4.139s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/ament_index/resource_index/package_run_dependencies/my_first_personal_project
+[4.139s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/ament_index/resource_index/parent_prefix_path/my_first_personal_project
+[4.140s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/ament_prefix_path.sh
+[4.140s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/ament_prefix_path.dsv
+[4.140s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/path.sh
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/environment/path.dsv
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/local_setup.bash
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/local_setup.sh
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/local_setup.zsh
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/local_setup.dsv
+[4.141s] -- Installing: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/package.dsv
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/ament_index/resource_index/packages/my_first_personal_project
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_generator_cExport.cmake
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_generator_cExport-noconfig.cmake
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_introspection_cExport.cmake
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_cExport.cmake
+[4.141s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_cExport-noconfig.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_generator_cppExport.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_introspection_cppExport.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_cppExport.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_project__rosidl_typesupport_cppExport-noconfig.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/rosidl_cmake-extras.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/ament_cmake_export_libraries-extras.cmake
+[4.142s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/ament_cmake_export_targets-extras.cmake
+[4.143s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.143s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.143s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.143s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_projectConfig.cmake
+[4.143s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/cmake/my_first_personal_projectConfig-version.cmake
+[4.144s] -- Up-to-date: /home/maghetto/ros2_ws/install/my_first_personal_project/share/my_first_personal_project/package.xml
+[4.150s] Invoked command in '/home/maghetto/ros2_ws/build/my_first_personal_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/maghetto/ros2_ws/build/my_first_personal_project

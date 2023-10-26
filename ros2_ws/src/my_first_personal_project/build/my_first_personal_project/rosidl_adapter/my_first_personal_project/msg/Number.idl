@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_first_personal_project/msg/Number.msg
+// generated code does not contain a copyright notice
+
+#include "my_first_personal_project/msg/String.idl"
+
+module my_first_personal_project {
+  module msg {
+    struct Number {
+      my_first_personal_project::msg::String pid;
+
+      uint32 number;
+    };
+  };
+};

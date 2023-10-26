@@ -1,0 +1,191 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maghetto/ros2_ws/build/my_first_personal_project
+[35m[1mScanning dependencies of target my_first_personal_project__cpp[0m
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target my_first_personal_project__cpp
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_generator_c[0m
+[  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.c.o[0m
+[ 21%] [32m[1mLinking C shared library libmy_first_personal_project__rosidl_generator_c.so[0m
+[ 21%] Built target my_first_personal_project__rosidl_generator_c
+[ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_personal_project/msg/number__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_fastrtps_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_personal_project/msg/detail/number__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/dds_fastrtps/number__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_c[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_personal_project/msg/number__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_introspection_c[0m
+[ 42%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_personal_project/msg/detail/number__type_support.c.o[0m
+[ 45%] [32m[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_c.so[0m
+[ 48%] [32m[1mLinking C shared library libmy_first_personal_project__rosidl_typesupport_introspection_c.so[0m
+[ 48%] Built target my_first_personal_project__rosidl_typesupport_c
+[ 48%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[ 51%] [32m[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_cpp.so[0m
+[ 54%] [32m[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_introspection_cpp.so[0m
+[ 54%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[ 54%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[ 57%] [32m[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_fastrtps_c[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_personal_project/msg/detail/number__type_support_c.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_fastrtps_c.so[0m
+[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target my_first_personal_project[0m
+[ 66%] Built target my_first_personal_project
+[35m[1mScanning dependencies of target my_first_personal_project__py[0m
+[35m[1mScanning dependencies of target random_generator[0m
+[ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o[0m
+[ 72%] Built target my_first_personal_project__py
+[35m[1mScanning dependencies of target my_first_personal_project__python[0m
+[ 75%] [32mBuilding C object CMakeFiles/my_first_personal_project__python.dir/rosidl_generator_py/my_first_personal_project/msg/_number_s.c.o[0m
+[ 78%] [32m[1mLinking C shared library rosidl_generator_py/my_first_personal_project/libmy_first_personal_project__python.so[0m
+[ 78%] Built target my_first_personal_project__python
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_c__pyext[0m
+[ 81%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_personal_project/_my_first_personal_project_s.ep.rosidl_typesupport_c.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_personal_project/_my_first_personal_project_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_personal_project/_my_first_personal_project_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[ 96%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:[m[K In constructor ‘[01m[KRandom_Publisher::Random_Publisher()[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:22:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRandom_Publisher::create_publisher<my_first_personal_project::msg::Number>()[m[K’
+   22 |       publisher_ = this->create_publisher<my_first_personal_project::msg::Number>([01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:22:83:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+   22 |       publisher_ = this->create_publisher<my_first_personal_project::msg::Number>([01;36m[K)[m[K;
+      |                                                                                   [01;36m[K^[m[K
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:[m[K In member function ‘[01m[Kvoid Random_Publisher::timer_callback()[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:33:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::thread::id[m[K’ to ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >::_pid_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} in assignment
+   33 |       number.pid = [01;31m[Kstd::this_thread::get_id()[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                            [01;31m[K|[m[K
+      |                                            [01;31m[Kstd::thread::id[m[K
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:37:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::publish(my_first_personal_project::msg::Number_<std::allocator<void> >&)[m[K’
+   37 |       publisher_->publish(number[01;31m[K)[m[K;
+      |                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:7[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<std_msgs::msg::String_<std::allocator<void> > >][m[K’
+  185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::unique_ptr<std_msgs::msg::String_<std::allocator<void> >, std::default_delete<std_msgs::msg::String_<std::allocator<void> > > >[m[K’
+  185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std_msgs::msg::String_<std::allocator<void> >&[m[K’
+  209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+  226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+  226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+  246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+      |   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmy_first_personal_project::msg::Number_<std::allocator<void> >[m[K’ to ‘[01m[Krclcpp::LoanedMessage<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+  246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+      |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2
+make: *** [Makefile:141: all] Errore 2

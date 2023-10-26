@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.001598] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.001643] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.001664] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001682] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001698] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001715] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001730] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001746] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001761] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001776] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001791] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001893] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001915] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002282] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002313] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002332] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002349] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002365] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002381] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002403] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002420] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002435] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002450] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.002466] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002481] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002586] (my_first_personal_project) JobQueued: {'identifier': 'my_first_personal_project', 'dependencies': OrderedDict()}
+[0.002614] (my_first_personal_project) JobStarted: {'identifier': 'my_first_personal_project'}
+[0.113078] (-) TimerEvent: {}
+[0.219018] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'cmake'}
+[0.219173] (-) TimerEvent: {}
+[0.224949] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'build'}
+[0.225066] (my_first_personal_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/my_first_personal_project', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/my_first_personal_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1515'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:/home/maghetto/ros2_ws/install/turtlesim/lib:/home/maghetto/ros2_ws/install/my_first_personal_project/lib:/home/maghetto/ros2_ws/install/more_interfaces/lib:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maghetto/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:32678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1577,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1577'), ('INVOCATION_ID', '5c453ab71e08460792cab3652649625d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c94675ee_3418_486c_a73b_5a323453f98c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/my_first_personal_project:/home/maghetto/ros2_ws/install/more_interfaces:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_parameters:/home/maghetto/ros2_ws/install/cpp_launch_example:/home/maghetto/ros2_ws/install/bag_recorder_nodes:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/my_first_personal_project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/my_first_personal_project:/home/maghetto/ros2_ws/install/more_interfaces:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_parameters:/home/maghetto/ros2_ws/install/cpp_launch_example:/home/maghetto/ros2_ws/install/bag_recorder_nodes:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.313290] (my_first_personal_project) StdoutLine: {'line': b'[  3%] Built target my_first_personal_project__cpp\n'}
+[0.313943] (my_first_personal_project) StdoutLine: {'line': b'[ 12%] Built target my_first_personal_project__rosidl_generator_c\n'}
+[0.319376] (-) TimerEvent: {}
+[0.354375] (my_first_personal_project) StdoutLine: {'line': b'[ 21%] Built target my_first_personal_project__rosidl_typesupport_cpp\n'}
+[0.355634] (my_first_personal_project) StdoutLine: {'line': b'[ 30%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp\n'}
+[0.388532] (my_first_personal_project) StdoutLine: {'line': b'[ 39%] Built target my_first_personal_project__rosidl_typesupport_introspection_c\n'}
+[0.390469] (my_first_personal_project) StdoutLine: {'line': b'[ 48%] Built target my_first_personal_project__rosidl_typesupport_c\n'}
+[0.419531] (-) TimerEvent: {}
+[0.422073] (my_first_personal_project) StdoutLine: {'line': b'[ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\n'}
+[0.464976] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c\n'}
+[0.507509] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project\n'}
+[0.521221] (-) TimerEvent: {}
+[0.537992] (my_first_personal_project) StdoutLine: {'line': b'[ 69%] Built target my_first_personal_project__py\n'}
+[0.554843] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target random_generator\x1b[0m\n'}
+[0.584520] (my_first_personal_project) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o\x1b[0m\n'}
+[0.624486] (-) TimerEvent: {}
+[0.726083] (-) TimerEvent: {}
+[0.826691] (-) TimerEvent: {}
+[0.927365] (-) TimerEvent: {}
+[1.031427] (-) TimerEvent: {}
+[1.133061] (-) TimerEvent: {}
+[1.234256] (-) TimerEvent: {}
+[1.335400] (-) TimerEvent: {}
+[1.436932] (-) TimerEvent: {}
+[1.540430] (-) TimerEvent: {}
+[1.646120] (-) TimerEvent: {}
+[1.751909] (-) TimerEvent: {}
+[1.857787] (-) TimerEvent: {}
+[1.958911] (-) TimerEvent: {}
+[2.060700] (-) TimerEvent: {}
+[2.162156] (-) TimerEvent: {}
+[2.264251] (-) TimerEvent: {}
+[2.366306] (-) TimerEvent: {}
+[2.466796] (-) TimerEvent: {}
+[2.568232] (-) TimerEvent: {}
+[2.669050] (-) TimerEvent: {}
+[2.769778] (-) TimerEvent: {}
+[2.872095] (-) TimerEvent: {}
+[2.880968] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Random_Publisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.881188] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:35:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint32\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krintf32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.881268] (my_first_personal_project) StderrLine: {'line': b'   35 |       \x1b[01;31m\x1b[Kuint32\x1b[m\x1b[K max_n = stoi(this->get_parameter("max_n").as_string());\n'}
+[2.881333] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.881394] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krintf32\x1b[m\x1b[K\n'}
+[2.881452] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmin_n\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.881516] (my_first_personal_project) StderrLine: {'line': b'   36 |       uint32\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmin_n\x1b[m\x1b[K = stoi(this->get_parameter("min_n").as_string());\n'}
+[2.881576] (my_first_personal_project) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[2.881634] (my_first_personal_project) StderrLine: {'line': b'      |             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.882460] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:39:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_n\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.882569] (my_first_personal_project) StderrLine: {'line': b'   39 |       number.number = (rand() % \x1b[01;31m\x1b[Kmax_n\x1b[m\x1b[K) + min_n;\n'}
+[2.882639] (my_first_personal_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.883586] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:39:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_n\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.883703] (my_first_personal_project) StderrLine: {'line': b'   39 |       number.number = (rand() % max_n) + \x1b[01;31m\x1b[Kmin_n\x1b[m\x1b[K;\n'}
+[2.883771] (my_first_personal_project) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.972331] (-) TimerEvent: {}
+[3.072951] (-) TimerEvent: {}
+[3.173913] (-) TimerEvent: {}
+[3.274598] (-) TimerEvent: {}
+[3.375324] (-) TimerEvent: {}
+[3.476333] (-) TimerEvent: {}
+[3.576761] (-) TimerEvent: {}
+[3.682406] (-) TimerEvent: {}
+[3.784145] (-) TimerEvent: {}
+[3.886766] (-) TimerEvent: {}
+[3.988997] (-) TimerEvent: {}
+[4.090103] (-) TimerEvent: {}
+[4.191560] (-) TimerEvent: {}
+[4.292262] (-) TimerEvent: {}
+[4.393771] (-) TimerEvent: {}
+[4.497119] (-) TimerEvent: {}
+[4.556075] (my_first_personal_project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1\n'}
+[4.556400] (my_first_personal_project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2\n'}
+[4.556477] (my_first_personal_project) StderrLine: {'line': b'make: *** [Makefile:141: all] Errore 2\n'}
+[4.565747] (my_first_personal_project) CommandEnded: {'returncode': 2}
+[4.597339] (-) TimerEvent: {}
+[4.699343] (-) TimerEvent: {}
+[4.800376] (-) TimerEvent: {}
+[4.901193] (-) TimerEvent: {}
+[5.002058] (-) TimerEvent: {}
+[5.028472] (my_first_personal_project) JobEnded: {'identifier': 'my_first_personal_project', 'rc': 2}
+[5.030082] (-) EventReactorShutdown: {}

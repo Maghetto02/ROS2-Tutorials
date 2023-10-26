@@ -1,0 +1,274 @@
+[0.000000] (-) TimerEvent: {}
+[0.002030] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.002079] (-) JobUnselected: {'identifier': 'cpp_launch_example'}
+[0.002101] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.002120] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002137] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002154] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002169] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002185] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002201] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002216] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002232] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002247] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002263] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002364] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002388] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002406] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002502] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002525] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002621] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002650] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002747] (-) JobUnselected: {'identifier': 'launch_tutorial'}
+[0.002770] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.002866] (-) JobUnselected: {'identifier': 'prova_1'}
+[0.002888] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002983] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003008] (my_first_personal_project) JobQueued: {'identifier': 'my_first_personal_project', 'dependencies': OrderedDict()}
+[0.003108] (my_first_personal_project) JobStarted: {'identifier': 'my_first_personal_project'}
+[0.101043] (-) TimerEvent: {}
+[0.204051] (-) TimerEvent: {}
+[0.242651] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'cmake'}
+[0.242833] (my_first_personal_project) JobProgress: {'identifier': 'my_first_personal_project', 'progress': 'build'}
+[0.247224] (my_first_personal_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maghetto/ros2_ws/build/my_first_personal_project', '--', '-j6', '-l6'], 'cwd': '/home/maghetto/ros2_ws/build/my_first_personal_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maghetto'), ('SSH_AGENT_PID', '1515'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib:/home/maghetto/ros2_ws/install/turtlesim/lib:/home/maghetto/ros2_ws/install/my_first_personal_project/lib:/home/maghetto/ros2_ws/install/more_interfaces/lib:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/maghetto'), ('OLDPWD', '/home/maghetto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1330'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/maghetto/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'maghetto'), ('JOURNAL_STREAM', '8:32678'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maghetto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/maghetto-VirtualBox:@/tmp/.ICE-unix/1577,unix/maghetto-VirtualBox:/tmp/.ICE-unix/1577'), ('INVOCATION_ID', '5c453ab71e08460792cab3652649625d'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c94675ee_3418_486c_a73b_5a323453f98c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/my_first_personal_project:/home/maghetto/ros2_ws/install/more_interfaces:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_parameters:/home/maghetto/ros2_ws/install/cpp_launch_example:/home/maghetto/ros2_ws/install/bag_recorder_nodes:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maghetto/ros2_ws/build/my_first_personal_project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/maghetto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maghetto/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/py_launch_example/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/my_first_personal_project/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/more_interfaces/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/launch_tutorial/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/maghetto/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/maghetto/ros2_ws/install/cpp_pubsub:/home/maghetto/ros2_ws/install/tutorial_interfaces:/home/maghetto/ros2_ws/install/turtlesim:/home/maghetto/ros2_ws/install/prova_1:/home/maghetto/ros2_ws/install/my_first_personal_project:/home/maghetto/ros2_ws/install/more_interfaces:/home/maghetto/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_timer:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_service:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_composition:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_client:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/maghetto/ros2_ws/install/cpp_parameters:/home/maghetto/ros2_ws/install/cpp_launch_example:/home/maghetto/ros2_ws/install/bag_recorder_nodes:/home/maghetto/ros2_ws/install/py_launch_example:/home/maghetto/ros2_ws/install/launch_tutorial:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_service:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_publisher:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_client:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_server:/home/maghetto/ros2_ws/install/examples_rclpy_minimal_action_client:/home/maghetto/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.305634] (-) TimerEvent: {}
+[0.320497] (my_first_personal_project) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.382934] (my_first_personal_project) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.383179] (my_first_personal_project) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.410970] (-) TimerEvent: {}
+[0.512342] (-) TimerEvent: {}
+[0.612830] (-) TimerEvent: {}
+[0.719740] (-) TimerEvent: {}
+[0.770271] (my_first_personal_project) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.821059] (-) TimerEvent: {}
+[0.923477] (-) TimerEvent: {}
+[1.001132] (my_first_personal_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.013538] (my_first_personal_project) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.024479] (-) TimerEvent: {}
+[1.125345] (-) TimerEvent: {}
+[1.225802] (-) TimerEvent: {}
+[1.295885] (my_first_personal_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.326386] (-) TimerEvent: {}
+[1.435848] (-) TimerEvent: {}
+[1.444907] (my_first_personal_project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.472877] (my_first_personal_project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.536537] (-) TimerEvent: {}
+[1.638557] (-) TimerEvent: {}
+[1.741936] (-) TimerEvent: {}
+[1.781874] (my_first_personal_project) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.3.11 (/opt/ros/foxy/share/rosbag2_cpp/cmake)\n'}
+[1.842189] (-) TimerEvent: {}
+[1.865902] (my_first_personal_project) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[1.876304] (my_first_personal_project) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.940403] (my_first_personal_project) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.942446] (-) TimerEvent: {}
+[2.045540] (-) TimerEvent: {}
+[2.123186] (my_first_personal_project) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.145929] (-) TimerEvent: {}
+[2.248249] (-) TimerEvent: {}
+[2.287160] (my_first_personal_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.310229] (my_first_personal_project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.365002] (-) TimerEvent: {}
+[2.403969] (my_first_personal_project) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.406271] (my_first_personal_project) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.481293] (-) TimerEvent: {}
+[2.500750] (my_first_personal_project) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.500937] (my_first_personal_project) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.501014] (my_first_personal_project) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.532339] (my_first_personal_project) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.581864] (-) TimerEvent: {}
+[2.607498] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.682115] (-) TimerEvent: {}
+[2.783005] (-) TimerEvent: {}
+[2.884723] (-) TimerEvent: {}
+[2.969566] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.969768] (my_first_personal_project) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.969848] (my_first_personal_project) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.986712] (-) TimerEvent: {}
+[3.010955] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.011180] (my_first_personal_project) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.033306] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.036659] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.040934] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.089760] (-) TimerEvent: {}
+[3.102943] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.103254] (my_first_personal_project) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.106012] (my_first_personal_project) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.189900] (-) TimerEvent: {}
+[3.192076] (my_first_personal_project) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.290080] (-) TimerEvent: {}
+[3.392261] (-) TimerEvent: {}
+[3.412040] (my_first_personal_project) StdoutLine: {'line': b'-- Generating done\n'}
+[3.465588] (my_first_personal_project) StdoutLine: {'line': b'-- Build files have been written to: /home/maghetto/ros2_ws/build/my_first_personal_project\n'}
+[3.494199] (-) TimerEvent: {}
+[3.536360] (my_first_personal_project) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.552537] (my_first_personal_project) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.600730] (-) TimerEvent: {}
+[3.701393] (-) TimerEvent: {}
+[3.803922] (-) TimerEvent: {}
+[3.910271] (-) TimerEvent: {}
+[4.016786] (-) TimerEvent: {}
+[4.117327] (-) TimerEvent: {}
+[4.220225] (-) TimerEvent: {}
+[4.331897] (my_first_personal_project) StdoutLine: {'line': b'[  6%] Built target my_first_personal_project__cpp\n'}
+[4.332139] (-) TimerEvent: {}
+[4.356328] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_generator_c\x1b[0m\n'}
+[4.356605] (my_first_personal_project) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.356770] (my_first_personal_project) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.383062] (my_first_personal_project) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.432319] (-) TimerEvent: {}
+[4.436309] (my_first_personal_project) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_generator_c.dir/rosidl_generator_c/my_first_personal_project/msg/detail/number__functions.c.o\x1b[0m\n'}
+[4.544288] (-) TimerEvent: {}
+[4.653679] (-) TimerEvent: {}
+[4.760148] (-) TimerEvent: {}
+[4.824501] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.864971] (-) TimerEvent: {}
+[4.883580] (my_first_personal_project) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_personal_project/msg/detail/number__type_support.cpp.o\x1b[0m\n'}
+[4.966070] (-) TimerEvent: {}
+[5.005768] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.073874] (-) TimerEvent: {}
+[5.142691] (my_first_personal_project) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_personal_project/msg/detail/dds_fastrtps/number__type_support.cpp.o\x1b[0m\n'}
+[5.178538] (-) TimerEvent: {}
+[5.254980] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.283468] (-) TimerEvent: {}
+[5.330154] (my_first_personal_project) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_personal_project/msg/number__type_support.cpp.o\x1b[0m\n'}
+[5.384852] (-) TimerEvent: {}
+[5.495463] (-) TimerEvent: {}
+[5.501475] (my_first_personal_project) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking C shared library libmy_first_personal_project__rosidl_generator_c.so\x1b[0m\n'}
+[5.604676] (-) TimerEvent: {}
+[5.616552] (my_first_personal_project) StdoutLine: {'line': b'[ 30%] Built target my_first_personal_project__rosidl_generator_c\n'}
+[5.774017] (-) TimerEvent: {}
+[5.834333] (my_first_personal_project) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.898989] (-) TimerEvent: {}
+[5.958378] (my_first_personal_project) StdoutLine: {'line': b'[ 33%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp\n'}
+[5.981123] (my_first_personal_project) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.010240] (-) TimerEvent: {}
+[6.075734] (my_first_personal_project) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.111251] (-) TimerEvent: {}
+[6.185559] (my_first_personal_project) StdoutLine: {'line': b'[ 39%] Built target my_first_personal_project__rosidl_typesupport_cpp\n'}
+[6.214184] (my_first_personal_project) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.214393] (-) TimerEvent: {}
+[6.316387] (-) TimerEvent: {}
+[6.327553] (my_first_personal_project) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.402930] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_c\x1b[0m\n'}
+[6.417624] (-) TimerEvent: {}
+[6.434165] (my_first_personal_project) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_personal_project/msg/number__type_support.cpp.o\x1b[0m\n'}
+[6.517965] (my_first_personal_project) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.518254] (-) TimerEvent: {}
+[6.621699] (-) TimerEvent: {}
+[6.631879] (my_first_personal_project) StdoutLine: {'line': b'[ 51%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp\n'}
+[6.655386] (my_first_personal_project) StdoutLine: {'line': b'[ 51%] Built target my_first_personal_project__rosidl_typesupport_c\n'}
+[6.662007] (my_first_personal_project) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.728003] (-) TimerEvent: {}
+[6.765978] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.789801] (my_first_personal_project) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_personal_project/msg/detail/number__type_support.c.o\x1b[0m\n'}
+[6.838078] (-) TimerEvent: {}
+[6.854351] (my_first_personal_project) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libmy_first_personal_project__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.893804] (my_first_personal_project) StdoutLine: {'line': b'[ 60%] Built target my_first_personal_project__rosidl_typesupport_introspection_c\n'}
+[6.938428] (-) TimerEvent: {}
+[7.040438] (-) TimerEvent: {}
+[7.087333] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.126993] (my_first_personal_project) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/my_first_personal_project__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_personal_project/msg/detail/number__type_support_c.cpp.o\x1b[0m\n'}
+[7.140849] (-) TimerEvent: {}
+[7.246014] (-) TimerEvent: {}
+[7.351705] (-) TimerEvent: {}
+[7.454018] (-) TimerEvent: {}
+[7.561137] (-) TimerEvent: {}
+[7.666302] (-) TimerEvent: {}
+[7.727378] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_personal_project__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.771361] (-) TimerEvent: {}
+[7.871821] (-) TimerEvent: {}
+[7.929882] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c\n'}
+[7.968784] (my_first_personal_project) StdoutLine: {'line': b'[ 66%] Built target my_first_personal_project\n'}
+[7.972122] (-) TimerEvent: {}
+[7.994100] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target random_generator\x1b[0m\n'}
+[8.037549] (my_first_personal_project) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.051530] (my_first_personal_project) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o\x1b[0m\n'}
+[8.073197] (-) TimerEvent: {}
+[8.173630] (-) TimerEvent: {}
+[8.276338] (-) TimerEvent: {}
+[8.377700] (-) TimerEvent: {}
+[8.478469] (-) TimerEvent: {}
+[8.579387] (-) TimerEvent: {}
+[8.680467] (-) TimerEvent: {}
+[8.785990] (-) TimerEvent: {}
+[8.886303] (-) TimerEvent: {}
+[9.004029] (-) TimerEvent: {}
+[9.041866] (my_first_personal_project) StdoutLine: {'line': b'[ 72%] Built target my_first_personal_project__py\n'}
+[9.100684] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__python\x1b[0m\n'}
+[9.104372] (-) TimerEvent: {}
+[9.165640] (my_first_personal_project) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/my_first_personal_project__python.dir/rosidl_generator_py/my_first_personal_project/msg/_number_s.c.o\x1b[0m\n'}
+[9.205340] (-) TimerEvent: {}
+[9.306272] (-) TimerEvent: {}
+[9.407582] (-) TimerEvent: {}
+[9.511650] (-) TimerEvent: {}
+[9.617156] (-) TimerEvent: {}
+[9.724107] (-) TimerEvent: {}
+[9.762738] (my_first_personal_project) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_personal_project/libmy_first_personal_project__python.so\x1b[0m\n'}
+[9.826677] (-) TimerEvent: {}
+[9.925075] (my_first_personal_project) StdoutLine: {'line': b'[ 78%] Built target my_first_personal_project__python\n'}
+[9.927018] (-) TimerEvent: {}
+[9.980628] (my_first_personal_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_personal_project__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.032347] (-) TimerEvent: {}
+[10.057923] (my_first_personal_project) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/my_first_personal_project__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_personal_project/_my_first_personal_project_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.135422] (-) TimerEvent: {}
+[10.236630] (-) TimerEvent: {}
+[10.341101] (-) TimerEvent: {}
+[10.376067] (my_first_personal_project) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_personal_project/my_first_personal_project_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.450300] (-) TimerEvent: {}
+[10.469928] (my_first_personal_project) StdoutLine: {'line': b'[ 84%] Built target my_first_personal_project__rosidl_typesupport_c__pyext\n'}
+[10.550846] (-) TimerEvent: {}
+[10.651760] (-) TimerEvent: {}
+[10.753137] (-) TimerEvent: {}
+[10.855697] (-) TimerEvent: {}
+[10.956652] (-) TimerEvent: {}
+[11.060541] (-) TimerEvent: {}
+[11.165765] (-) TimerEvent: {}
+[11.266941] (-) TimerEvent: {}
+[11.375995] (-) TimerEvent: {}
+[11.484130] (-) TimerEvent: {}
+[11.569818] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Random_Publisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.570163] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:35:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint32\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krintf32\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.570319] (my_first_personal_project) StderrLine: {'line': b'   35 |       \x1b[01;31m\x1b[Kuint32\x1b[m\x1b[K max_n = this->get_parameter("max_n").as_uint32();\n'}
+[11.570403] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.570474] (my_first_personal_project) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krintf32\x1b[m\x1b[K\n'}
+[11.570542] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmin_n\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.570617] (my_first_personal_project) StderrLine: {'line': b'   36 |       uint32\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmin_n\x1b[m\x1b[K = this->get_parameter("min_n").as_uint32();\n'}
+[11.570684] (my_first_personal_project) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[11.570752] (my_first_personal_project) StderrLine: {'line': b'      |             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[11.572401] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:39:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_n\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.572584] (my_first_personal_project) StderrLine: {'line': b'   39 |       number.number = (rand() % \x1b[01;31m\x1b[Kmax_n\x1b[m\x1b[K) + min_n;\n'}
+[11.572667] (my_first_personal_project) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.574526] (my_first_personal_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:39:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin_n\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.574697] (my_first_personal_project) StderrLine: {'line': b'   39 |       number.number = (rand() % max_n) + \x1b[01;31m\x1b[Kmin_n\x1b[m\x1b[K;\n'}
+[11.574780] (my_first_personal_project) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.584500] (-) TimerEvent: {}
+[11.691068] (-) TimerEvent: {}
+[11.795693] (-) TimerEvent: {}
+[11.898193] (-) TimerEvent: {}
+[12.000535] (-) TimerEvent: {}
+[12.101899] (-) TimerEvent: {}
+[12.202366] (-) TimerEvent: {}
+[12.303473] (-) TimerEvent: {}
+[12.404442] (-) TimerEvent: {}
+[12.505144] (-) TimerEvent: {}
+[12.609734] (-) TimerEvent: {}
+[12.710433] (-) TimerEvent: {}
+[12.820868] (-) TimerEvent: {}
+[12.921805] (-) TimerEvent: {}
+[13.023371] (-) TimerEvent: {}
+[13.125735] (-) TimerEvent: {}
+[13.226241] (-) TimerEvent: {}
+[13.326850] (-) TimerEvent: {}
+[13.429508] (-) TimerEvent: {}
+[13.507229] (my_first_personal_project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1\n'}
+[13.507754] (my_first_personal_project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2\n'}
+[13.507870] (my_first_personal_project) StderrLine: {'line': b'make: *** [Makefile:141: all] Errore 2\n'}
+[13.513443] (my_first_personal_project) CommandEnded: {'returncode': 2}
+[13.530583] (-) TimerEvent: {}
+[13.631223] (-) TimerEvent: {}
+[13.737804] (-) TimerEvent: {}
+[13.843394] (-) TimerEvent: {}
+[13.989254] (-) TimerEvent: {}
+[14.090290] (-) TimerEvent: {}
+[14.135302] (my_first_personal_project) JobEnded: {'identifier': 'my_first_personal_project', 'rc': 2}
+[14.158018] (-) EventReactorShutdown: {}

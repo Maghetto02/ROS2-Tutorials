@@ -1,0 +1,12 @@
+[  3%] Built target my_first_personal_project__cpp
+[ 12%] Built target my_first_personal_project__rosidl_generator_c
+[ 21%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[ 30%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[ 39%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[ 48%] Built target my_first_personal_project__rosidl_typesupport_c
+[ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[ 66%] Built target my_first_personal_project
+[ 69%] Built target my_first_personal_project__py
+[35m[1mScanning dependencies of target random_generator[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o[0m

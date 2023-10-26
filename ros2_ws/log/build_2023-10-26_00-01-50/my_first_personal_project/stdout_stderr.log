@@ -1,0 +1,23 @@
+[  9%] Built target my_first_personal_project__rosidl_generator_c
+[ 12%] Built target my_first_personal_project__cpp
+[ 30%] Built target my_first_personal_project__rosidl_typesupport_introspection_c
+[ 30%] Built target my_first_personal_project__rosidl_typesupport_c
+[ 39%] Built target my_first_personal_project__rosidl_typesupport_introspection_cpp
+[ 48%] Built target my_first_personal_project__rosidl_typesupport_cpp
+[ 57%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c
+[ 66%] Built target my_first_personal_project
+[35m[1mScanning dependencies of target random_generator[0m
+[ 69%] Built target my_first_personal_project__py
+[ 72%] [32mBuilding CXX object CMakeFiles/random_generator.dir/src/random_generator.cpp.o[0m
+[ 78%] Built target my_first_personal_project__python
+[ 84%] Built target my_first_personal_project__rosidl_typesupport_c__pyext
+[ 90%] Built target my_first_personal_project__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target my_first_personal_project__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:[m[K In member function ‘[01m[Kvoid Random_Publisher::timer_callback()[m[K’:
+[01m[K/home/maghetto/ros2_ws/src/my_first_personal_project/src/random_generator.cpp:34:50:[m[K [01;31m[Kerror: [m[Kinvalid cast from type ‘[01m[Kstd::thread::id[m[K’ to type ‘[01m[Kint[m[K’
+   34 |       number.pid = (int)std::this_thread::get_id([01;31m[K)[m[K;
+      |                                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/random_generator.dir/build.make:63: CMakeFiles/random_generator.dir/src/random_generator.cpp.o] Errore 1
+make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/random_generator.dir/all] Errore 2
+make: *** [Makefile:141: all] Errore 2
